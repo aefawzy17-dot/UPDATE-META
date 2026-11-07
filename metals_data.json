@@ -71440,7 +71440,6 @@
     "operator": "حازم حامد وهبه"
   },
   {
-    "id": 3761,
     "workorder": "1595/26/01",
     "joborder": "1595/26/01/STD/1",
     "label_no": "1595/26/01/STD/17254",
@@ -71456,10 +71455,10 @@
     "machine": "CN",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3761
   },
   {
-    "id": 3762,
     "workorder": "1546/26/17",
     "joborder": "1546/26/17/STD/1",
     "label_no": "1546/26/17/STD/17251",
@@ -71470,15 +71469,15 @@
     "drumno": "Z-147",
     "length": 500,
     "weight": 127,
-    "customer": "-",
+    "customer": "Faber Kabel",
     "shift": "1",
     "machine": "CN",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3762
   },
   {
-    "id": 3763,
     "workorder": "1546/26/17",
     "joborder": "1546/26/17/STD/1",
     "label_no": "1546/26/17/STD/17252",
@@ -71489,15 +71488,15 @@
     "drumno": "ZC-32",
     "length": 4200,
     "weight": 10638,
-    "customer": "-",
+    "customer": "Faber Kabel",
     "shift": "1",
     "machine": "CN",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3763
   },
   {
-    "id": 3764,
     "workorder": "1595/26/01",
     "joborder": "1595/26/01/STD/1",
     "label_no": "1595/26/01/STD/17254",
@@ -71513,10 +71512,10 @@
     "machine": "CN",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "محمد سامي مصطفي"
+    "operator": "محمد سامي مصطفي",
+    "id": 3764
   },
   {
-    "id": 3765,
     "workorder": "1595/26/01",
     "joborder": "1595/26/01/STD/1",
     "label_no": "1595/26/01/STD/17255",
@@ -71532,10 +71531,10 @@
     "machine": "CN",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "محمد سامي مصطفي"
+    "operator": "محمد سامي مصطفي",
+    "id": 3765
   },
   {
-    "id": 3766,
     "workorder": "1595/26/01",
     "joborder": "1595/26/01/STD/1",
     "label_no": "1595/26/01/STD/17256",
@@ -71551,10 +71550,10 @@
     "machine": "CN",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "محمد سامي مصطفي"
+    "operator": "محمد سامي مصطفي",
+    "id": 3766
   },
   {
-    "id": 3767,
     "workorder": "1595/26/01",
     "joborder": "1595/26/01/STD/1",
     "label_no": "1595/26/01/STD/17257",
@@ -71570,10 +71569,10 @@
     "machine": "CN",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "محمد سامي مصطفي"
+    "operator": "محمد سامي مصطفي",
+    "id": 3767
   },
   {
-    "id": 3768,
     "workorder": "1595/26/01",
     "joborder": "1595/26/01/STD/1",
     "label_no": "1595/26/01/STD/17257",
@@ -71589,10 +71588,10 @@
     "machine": "CN",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3768
   },
   {
-    "id": 3769,
     "workorder": "1595/26/01",
     "joborder": "1595/26/01/STD/1",
     "label_no": "1595/26/01/STD/17258",
@@ -71608,10 +71607,10 @@
     "machine": "CN",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3769
   },
   {
-    "id": 3770,
     "workorder": "1595/26/01",
     "joborder": "1595/26/01/STD/1",
     "label_no": "1595/26/01/STD/17259",
@@ -71627,10 +71626,10 @@
     "machine": "CN",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3770
   },
   {
-    "id": 3771,
     "workorder": "1595/26/01",
     "joborder": "1595/26/01/STD/1",
     "label_no": "1595/26/01/STD/17261",
@@ -71646,10 +71645,10 @@
     "machine": "CN",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3771
   },
   {
-    "id": 3772,
     "workorder": "1905/26/05",
     "joborder": "1905/26/05/STD/1",
     "label_no": "1905/26/05/STD/28243",
@@ -71665,10 +71664,10 @@
     "machine": "CS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3772
   },
   {
-    "id": 3773,
     "workorder": "1714/26/11",
     "joborder": "1714/26/11/STD/1",
     "label_no": "1714/26/11/STD/28240",
@@ -71679,15 +71678,15 @@
     "drumno": "T-12",
     "length": 400,
     "weight": 160,
-    "customer": "-",
+    "customer": "INSELL",
     "shift": "1",
     "machine": "CS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3773
   },
   {
-    "id": 3774,
     "workorder": "1868/26/08",
     "joborder": "1868/26/08/STD/1",
     "label_no": "1868/26/08/STD/28242",
@@ -71698,15 +71697,15 @@
     "drumno": "E-62",
     "length": 2100,
     "weight": 433,
-    "customer": "-",
+    "customer": "السويدي كابلز",
     "shift": "1",
     "machine": "CS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3774
   },
   {
-    "id": 3775,
     "workorder": "1905/26/05",
     "joborder": "1905/26/05/STD/1",
     "label_no": "1905/26/05/STD/28243",
@@ -71722,10 +71721,10 @@
     "machine": "CS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "محمود حمدي صابر"
+    "operator": "محمود حمدي صابر",
+    "id": 3775
   },
   {
-    "id": 3776,
     "workorder": "1905/26/05",
     "joborder": "1905/26/05/STD/1",
     "label_no": "1905/26/05/STD/28243",
@@ -71741,10 +71740,10 @@
     "machine": "CS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3776
   },
   {
-    "id": 3777,
     "workorder": "1905/26/05",
     "joborder": "1905/26/05/STD/1",
     "label_no": "1905/26/05/STD/28244",
@@ -71760,10 +71759,10 @@
     "machine": "CS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3777
   },
   {
-    "id": 3778,
     "workorder": "1385/26/03",
     "joborder": "1385/26/03/STD/1",
     "label_no": "1385/26/03/STD/5953",
@@ -71774,15 +71773,15 @@
     "drumno": "WITHOUT",
     "length": 3100,
     "weight": 701,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "1",
     "machine": "CS02",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3778
   },
   {
-    "id": 3779,
     "workorder": "1385/26/03",
     "joborder": "1385/26/03/STD/1",
     "label_no": "1385/26/03/STD/5954",
@@ -71793,15 +71792,15 @@
     "drumno": "Z-61",
     "length": 5550,
     "weight": 1256,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "1",
     "machine": "CS02",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3779
   },
   {
-    "id": 3780,
     "workorder": "1385/26/03",
     "joborder": "1385/26/03/STD/1",
     "label_no": "1385/26/03/STD/5954",
@@ -71812,15 +71811,15 @@
     "drumno": "Z-61",
     "length": 4840,
     "weight": 10952,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "2",
     "machine": "CS02",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "صلاح عادل عبد النبي"
+    "operator": "صلاح عادل عبد النبي",
+    "id": 3780
   },
   {
-    "id": 3781,
     "workorder": "1385/26/03",
     "joborder": "1385/26/03/STD/1",
     "label_no": "1385/26/03/STD/3813",
@@ -71831,15 +71830,15 @@
     "drumno": "Z-93",
     "length": 3200,
     "weight": 7241,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "2",
     "machine": "CS02",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "صلاح عادل عبد النبي"
+    "operator": "صلاح عادل عبد النبي",
+    "id": 3781
   },
   {
-    "id": 3782,
     "workorder": "1385/26/03",
     "joborder": "1385/26/03/STD/1",
     "label_no": "1385/26/03/STD/3813",
@@ -71850,15 +71849,15 @@
     "drumno": "Z-93",
     "length": 7200,
     "weight": 16293,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "3",
     "machine": "CS02",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3782
   },
   {
-    "id": 3783,
     "workorder": "1385/26/11",
     "joborder": "1385/26/11/STD/1",
     "label_no": "1385/26/11/STD/26213",
@@ -71869,15 +71868,15 @@
     "drumno": "WITHOUT",
     "length": 11250,
     "weight": 299,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "1",
     "machine": "DS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3783
   },
   {
-    "id": 3784,
     "workorder": "1385/26/11",
     "joborder": "1385/26/11/STD/1",
     "label_no": "1385/26/11/STD/26214",
@@ -71888,15 +71887,15 @@
     "drumno": "G-23",
     "length": 15750,
     "weight": 418,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "1",
     "machine": "DS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3784
   },
   {
-    "id": 3785,
     "workorder": "1385/26/11",
     "joborder": "1385/26/11/STD/1",
     "label_no": "1385/26/11/STD/26215",
@@ -71907,15 +71906,15 @@
     "drumno": "H-31",
     "length": 11600,
     "weight": 308,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "1",
     "machine": "DS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3785
   },
   {
-    "id": 3786,
     "workorder": "1385/26/11",
     "joborder": "1385/26/11/STD/1",
     "label_no": "1385/26/11/STD/26215",
@@ -71926,15 +71925,15 @@
     "drumno": "H-31",
     "length": 4150,
     "weight": 110,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "2",
     "machine": "DS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "عبده علي عبد المعبود"
+    "operator": "عبده علي عبد المعبود",
+    "id": 3786
   },
   {
-    "id": 3787,
     "workorder": "1385/26/11",
     "joborder": "1385/26/11/STD/1",
     "label_no": "1385/26/11/STD/26216",
@@ -71945,15 +71944,15 @@
     "drumno": "H-25",
     "length": 15750,
     "weight": 4186,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "2",
     "machine": "DS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "عبده علي عبد المعبود"
+    "operator": "عبده علي عبد المعبود",
+    "id": 3787
   },
   {
-    "id": 3788,
     "workorder": "1385/26/11",
     "joborder": "1385/26/11/STD/1",
     "label_no": "1385/26/11/STD/26218",
@@ -71964,15 +71963,15 @@
     "drumno": "G-59",
     "length": 5250,
     "weight": 1396,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "2",
     "machine": "DS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "عبده علي عبد المعبود"
+    "operator": "عبده علي عبد المعبود",
+    "id": 3788
   },
   {
-    "id": 3789,
     "workorder": "1385/26/11",
     "joborder": "1385/26/11/STD/1",
     "label_no": "1385/26/11/STD/26219",
@@ -71983,15 +71982,15 @@
     "drumno": "G-117",
     "length": 5750,
     "weight": 152,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "2",
     "machine": "DS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "عبده علي عبد المعبود"
+    "operator": "عبده علي عبد المعبود",
+    "id": 3789
   },
   {
-    "id": 3790,
     "workorder": "1385/26/11",
     "joborder": "1385/26/11/STD/1",
     "label_no": "1385/26/11/STD/26219",
@@ -72002,15 +72001,15 @@
     "drumno": "G-177",
     "length": 10000,
     "weight": 266,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "3",
     "machine": "DS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3790
   },
   {
-    "id": 3791,
     "workorder": "1385/26/11",
     "joborder": "1385/26/11/STD/1",
     "label_no": "1385/26/11/STD/26220",
@@ -72021,15 +72020,15 @@
     "drumno": "H-80",
     "length": 15750,
     "weight": 4186,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "3",
     "machine": "DS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3791
   },
   {
-    "id": 3792,
     "workorder": "1385/26/11",
     "joborder": "1385/26/11/STD/1",
     "label_no": "1385/26/11/STD/26221",
@@ -72040,15 +72039,15 @@
     "drumno": "H-14",
     "length": 15750,
     "weight": 4186,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "3",
     "machine": "DS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3792
   },
   {
-    "id": 3793,
     "workorder": "1385/26/11",
     "joborder": "1385/26/11/STD/1",
     "label_no": "1385/26/11/STD/26222",
@@ -72059,15 +72058,15 @@
     "drumno": "H-28",
     "length": 4500,
     "weight": 1196,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "3",
     "machine": "DS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3793
   },
   {
-    "id": 3794,
     "workorder": "1990/26/02",
     "joborder": "1990/26/02/STD/1",
     "label_no": "1990/26/02/STD/3809",
@@ -72078,15 +72077,15 @@
     "drumno": "T-13",
     "length": 4600,
     "weight": 1195,
-    "customer": "-",
+    "customer": "Energya Cables",
     "shift": "1",
     "machine": "RS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3794
   },
   {
-    "id": 3795,
     "workorder": "1990/26/02",
     "joborder": "1990/26/02/STD/1",
     "label_no": "1990/26/02/STD/3809",
@@ -72097,15 +72096,15 @@
     "drumno": "T-13",
     "length": 7000,
     "weight": 18184,
-    "customer": "-",
+    "customer": "Energya Cables",
     "shift": "2",
     "machine": "RS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "كريم سمير يوسف"
+    "operator": "كريم سمير يوسف",
+    "id": 3795
   },
   {
-    "id": 3796,
     "workorder": "1990/26/02",
     "joborder": "1990/26/02/STD/1",
     "label_no": "1990/26/02/STD/3810",
@@ -72116,15 +72115,15 @@
     "drumno": "Z-32",
     "length": 1575,
     "weight": 4091,
-    "customer": "-",
+    "customer": "Energya Cables",
     "shift": "2",
     "machine": "RS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "كريم سمير يوسف"
+    "operator": "كريم سمير يوسف",
+    "id": 3796
   },
   {
-    "id": 3797,
     "workorder": "1993/26/04",
     "joborder": "1993/26/04/STD/1",
     "label_no": "1993/26/04/STD/3811",
@@ -72135,15 +72134,15 @@
     "drumno": "I-99",
     "length": 2000,
     "weight": 3254,
-    "customer": "-",
+    "customer": "Energya Cables",
     "shift": "3",
     "machine": "RS01",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3797
   },
   {
-    "id": 3798,
     "workorder": "1264/26/04",
     "joborder": "1264/26/04/STD/1",
     "label_no": "1264/26/04/STD/15374",
@@ -72154,15 +72153,15 @@
     "drumno": "Z-119",
     "length": 3150,
     "weight": 330,
-    "customer": "-",
+    "customer": "Eland Cables",
     "shift": "1",
     "machine": "RS02",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3798
   },
   {
-    "id": 3799,
     "workorder": "1264/26/04",
     "joborder": "1264/26/04/STD/1",
     "label_no": "1264/26/04/STD/15375",
@@ -72173,15 +72172,15 @@
     "drumno": "T-58",
     "length": 680,
     "weight": 712,
-    "customer": "-",
+    "customer": "Eland Cables",
     "shift": "1",
     "machine": "RS02",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3799
   },
   {
-    "id": 3800,
     "workorder": "1264/26/04",
     "joborder": "1264/26/04/STD/1",
     "label_no": "1264/26/04/STD/15375",
@@ -72192,15 +72191,15 @@
     "drumno": "T-8",
     "length": 2470,
     "weight": 2585,
-    "customer": "-",
+    "customer": "Eland Cables",
     "shift": "2",
     "machine": "RS02",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "محمود حسين عبد الحليم"
+    "operator": "محمود حسين عبد الحليم",
+    "id": 3800
   },
   {
-    "id": 3801,
     "workorder": "1264/26/04",
     "joborder": "1264/26/04/STD/1",
     "label_no": "1264/26/04/STD/15375",
@@ -72211,15 +72210,15 @@
     "drumno": "T-08",
     "length": 3150,
     "weight": 3296,
-    "customer": "-",
+    "customer": "Eland Cables",
     "shift": "3",
     "machine": "RS02",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3801
   },
   {
-    "id": 3802,
     "workorder": "1264/26/04",
     "joborder": "1264/26/04/STD/1",
     "label_no": "1264/26/04/STD/15376",
@@ -72230,15 +72229,15 @@
     "drumno": "T-278",
     "length": 6300,
     "weight": 6593,
-    "customer": "-",
+    "customer": "Eland Cables",
     "shift": "3",
     "machine": "RS02",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3802
   },
   {
-    "id": 3803,
     "workorder": "1385/26/03",
     "joborder": "1385/26/03/STD/1",
     "label_no": "1385/26/03/STD/5933",
@@ -72249,15 +72248,15 @@
     "drumno": "Z-117",
     "length": 4000,
     "weight": 9052,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "1",
     "machine": "RS03",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3803
   },
   {
-    "id": 3804,
     "workorder": "1385/26/03",
     "joborder": "1385/26/03/STD/1",
     "label_no": "1385/26/03/STD/5933",
@@ -72268,15 +72267,15 @@
     "drumno": "Z-117",
     "length": 440,
     "weight": 996,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "2",
     "machine": "RS03",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "وحيد محمد عبدالرحيم"
+    "operator": "وحيد محمد عبدالرحيم",
+    "id": 3804
   },
   {
-    "id": 3805,
     "workorder": "1385/26/03",
     "joborder": "1385/26/03/STD/1",
     "label_no": "1385/26/03/STD/5934",
@@ -72287,15 +72286,15 @@
     "drumno": "WITHOUT",
     "length": 6180,
     "weight": 13984,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "2",
     "machine": "RS03",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "وحيد محمد عبدالرحيم"
+    "operator": "وحيد محمد عبدالرحيم",
+    "id": 3805
   },
   {
-    "id": 3806,
     "workorder": "1385/26/03",
     "joborder": "1385/26/03/STD/1",
     "label_no": "1385/26/03/STD/5934",
@@ -72306,15 +72305,15 @@
     "drumno": "WITHOUT",
     "length": 2160,
     "weight": 4888,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "3",
     "machine": "RS03",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3806
   },
   {
-    "id": 3807,
     "workorder": "1385/26/03",
     "joborder": "1385/26/03/STD/1",
     "label_no": "1385/26/03/STD/15441",
@@ -72325,15 +72324,15 @@
     "drumno": "Z-75",
     "length": 7700,
     "weight": 1743,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "3",
     "machine": "RS03",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3807
   },
   {
-    "id": 3808,
     "workorder": "1385/26/03",
     "joborder": "1385/26/03/STD/1",
     "label_no": "1385/26/03/STD/15432",
@@ -72344,15 +72343,15 @@
     "drumno": "T-73",
     "length": 1490,
     "weight": 3372,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "1",
     "machine": "RS04",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3808
   },
   {
-    "id": 3809,
     "workorder": "2029/26/01",
     "joborder": "2029/26/01/STD/1",
     "label_no": "2029/26/01/STD/18177",
@@ -72368,10 +72367,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "محمد احمد كامل"
+    "operator": "محمد احمد كامل",
+    "id": 3809
   },
   {
-    "id": 3810,
     "workorder": "1857/26/01",
     "joborder": "1857/26/01/STD/1",
     "label_no": "1857/26/01/STD/18176",
@@ -72382,15 +72381,15 @@
     "drumno": "T-50",
     "length": 61.8,
     "weight": 0,
-    "customer": "-",
+    "customer": "Energya Cables",
     "shift": "2",
     "machine": "RS04",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "محمد احمد كامل"
+    "operator": "محمد احمد كامل",
+    "id": 3810
   },
   {
-    "id": 3811,
     "workorder": "1647/26/01",
     "joborder": "1647/26/01/STD/1",
     "label_no": "1647/26/01/STD/18176",
@@ -72406,10 +72405,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "محمد احمد كامل"
+    "operator": "محمد احمد كامل",
+    "id": 3811
   },
   {
-    "id": 3812,
     "workorder": "1705/26/01",
     "joborder": "1705/26/01/STD/1",
     "label_no": "1705/26/01/STD/15433",
@@ -72425,10 +72424,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "محمد احمد كامل"
+    "operator": "محمد احمد كامل",
+    "id": 3812
   },
   {
-    "id": 3813,
     "workorder": "1705/26/01",
     "joborder": "1705/26/01/STD/1",
     "label_no": "1705/26/01/STD/15434",
@@ -72444,10 +72443,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "محمد احمد كامل"
+    "operator": "محمد احمد كامل",
+    "id": 3813
   },
   {
-    "id": 3814,
     "workorder": "1705/26/01",
     "joborder": "1705/26/01/STD/1",
     "label_no": "1705/26/01/STD/15435",
@@ -72463,10 +72462,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "محمد احمد كامل"
+    "operator": "محمد احمد كامل",
+    "id": 3814
   },
   {
-    "id": 3815,
     "workorder": "2019/26/03",
     "joborder": "2019/26/03/STD/1",
     "label_no": "2019/26/03/STD/18179",
@@ -72482,10 +72481,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3815
   },
   {
-    "id": 3816,
     "workorder": "1055/26/01",
     "joborder": "1055/26/01/STD/1",
     "label_no": "1055/26/01/STD/18178",
@@ -72501,10 +72500,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3816
   },
   {
-    "id": 3817,
     "workorder": "2099/26/01",
     "joborder": "2099/26/01/STD/1",
     "label_no": "2099/26/01/STD/18177",
@@ -72520,10 +72519,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3817
   },
   {
-    "id": 3818,
     "workorder": "1996/26/16",
     "joborder": "1996/26/16/STD/1",
     "label_no": "1996/26/16/STD/26028",
@@ -72539,10 +72538,10 @@
     "machine": "RS05",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبد القادر احمد"
+    "operator": "احمد عبد القادر احمد",
+    "id": 3818
   },
   {
-    "id": 3819,
     "workorder": "1896/26/19",
     "joborder": "1896/26/19/STD/1",
     "label_no": "1896/26/19/STD/26028",
@@ -72558,10 +72557,10 @@
     "machine": "RS05",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبد القادر احمد"
+    "operator": "احمد عبد القادر احمد",
+    "id": 3819
   },
   {
-    "id": 3820,
     "workorder": "2023/26/02",
     "joborder": "2023/26/02/STD/1",
     "label_no": "2023/26/02/STD/26028",
@@ -72577,10 +72576,10 @@
     "machine": "RS05",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبد القادر احمد"
+    "operator": "احمد عبد القادر احمد",
+    "id": 3820
   },
   {
-    "id": 3821,
     "workorder": "1834/26/05",
     "joborder": "1834/26/05/STD/1",
     "label_no": "1834/26/05/STD/26029",
@@ -72596,10 +72595,10 @@
     "machine": "RS05",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "محمد علي مرسي"
+    "operator": "محمد علي مرسي",
+    "id": 3821
   },
   {
-    "id": 3822,
     "workorder": "1882/26/01",
     "joborder": "1882/26/01/STD/1",
     "label_no": "1882/26/01/STD/26031",
@@ -72615,10 +72614,10 @@
     "machine": "RS05",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3822
   },
   {
-    "id": 3823,
     "workorder": "1882/26/01",
     "joborder": "1882/26/01/STD/1",
     "label_no": "1882/26/01/STD/26032",
@@ -72634,10 +72633,10 @@
     "machine": "RS05",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3823
   },
   {
-    "id": 3824,
     "workorder": "1834/26/01",
     "joborder": "1834/26/01/STD/1",
     "label_no": "1834/26/01/STD/26030",
@@ -72653,10 +72652,10 @@
     "machine": "RS05",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3824
   },
   {
-    "id": 3825,
     "workorder": "1834/26/05",
     "joborder": "1834/26/05/STD/1",
     "label_no": "1834/26/05/STD/26029",
@@ -72672,10 +72671,10 @@
     "machine": "RS05",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3825
   },
   {
-    "id": 3826,
     "workorder": "2159/26/11",
     "joborder": "2159/26/11/STD/1",
     "label_no": "2159/26/11/STD/26941",
@@ -72691,10 +72690,10 @@
     "machine": "RS06",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3826
   },
   {
-    "id": 3827,
     "workorder": "1993/26/07",
     "joborder": "1993/26/07/STD/1",
     "label_no": "1993/26/07/STD/26940",
@@ -72705,15 +72704,15 @@
     "drumno": "Z-98",
     "length": 365,
     "weight": 2049,
-    "customer": "-",
+    "customer": "Energya Cables",
     "shift": "1",
     "machine": "RS06",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 3827
   },
   {
-    "id": 3828,
     "workorder": "2159/26/11",
     "joborder": "2159/26/11/STD/1",
     "label_no": "2159/26/11/STD/26941",
@@ -72729,10 +72728,10 @@
     "machine": "RS06",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "شريف رمضان عبد العظيم"
+    "operator": "شريف رمضان عبد العظيم",
+    "id": 3828
   },
   {
-    "id": 3829,
     "workorder": "1117/26/02",
     "joborder": "1117/26/02/STD/1",
     "label_no": "1117/26/02/STD/26942",
@@ -72748,10 +72747,10 @@
     "machine": "RS06",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3829
   },
   {
-    "id": 3830,
     "workorder": "2159/26/11",
     "joborder": "2159/26/11/STD/1",
     "label_no": "2159/26/11/STD/26941",
@@ -72767,7 +72766,8 @@
     "machine": "RS06",
     "dateIso": "2026-11-02",
     "dateDisplay": "02/11/2026",
-    "operator": "حازم حامد وهبه"
+    "operator": "حازم حامد وهبه",
+    "id": 3830
   },
   {
     "id": 3831,
@@ -77349,7 +77349,6 @@
     "operator": "محمد محرز السعيد"
   },
   {
-    "id": 4072,
     "workorder": "1863/26/06",
     "joborder": "1863/26/06/STD/1",
     "label_no": "1863/26/06/STD/17278",
@@ -77365,10 +77364,10 @@
     "machine": "CN",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4072
   },
   {
-    "id": 4073,
     "workorder": "1863/26/06",
     "joborder": "1863/26/06/STD/1",
     "label_no": "1863/26/06/STD/17279",
@@ -77384,10 +77383,10 @@
     "machine": "CN",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4073
   },
   {
-    "id": 4074,
     "workorder": "1863/26/06",
     "joborder": "1863/26/06/STD/1",
     "label_no": "1863/26/06/STD/17289",
@@ -77403,10 +77402,10 @@
     "machine": "CN",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4074
   },
   {
-    "id": 4075,
     "workorder": "1863/26/06",
     "joborder": "1863/26/06/STD/1",
     "label_no": "1863/26/06/STD/17281",
@@ -77422,10 +77421,10 @@
     "machine": "CN",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4075
   },
   {
-    "id": 4076,
     "workorder": "1863/26/06",
     "joborder": "1863/26/06/STD/1",
     "label_no": "1863/26/06/STD/17281",
@@ -77441,10 +77440,10 @@
     "machine": "CN",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمد سامي مصطفي"
+    "operator": "محمد سامي مصطفي",
+    "id": 4076
   },
   {
-    "id": 4077,
     "workorder": "1863/26/06",
     "joborder": "1863/26/06/STD/1",
     "label_no": "1863/26/06/STD/17282",
@@ -77460,10 +77459,10 @@
     "machine": "CN",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمد سامي مصطفي"
+    "operator": "محمد سامي مصطفي",
+    "id": 4077
   },
   {
-    "id": 4078,
     "workorder": "1863/26/06",
     "joborder": "1863/26/06/STD/1",
     "label_no": "1863/26/06/STD/17283",
@@ -77479,10 +77478,10 @@
     "machine": "CN",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمد سامي مصطفي"
+    "operator": "محمد سامي مصطفي",
+    "id": 4078
   },
   {
-    "id": 4079,
     "workorder": "1863/26/06",
     "joborder": "1863/26/06/STD/1",
     "label_no": "1863/26/06/STD/17284",
@@ -77498,10 +77497,10 @@
     "machine": "CN",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمد سامي مصطفي"
+    "operator": "محمد سامي مصطفي",
+    "id": 4079
   },
   {
-    "id": 4080,
     "workorder": "1560/26/18",
     "joborder": "1560/26/18/STD/1",
     "label_no": "1560/26/18/STD/28261",
@@ -77512,15 +77511,15 @@
     "drumno": "Z-58",
     "length": 6180,
     "weight": 3511,
-    "customer": "-",
+    "customer": "Eland Cables",
     "shift": "1",
     "machine": "CS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4080
   },
   {
-    "id": 4081,
     "workorder": "1385/26/05",
     "joborder": "1385/26/05/STD/1",
     "label_no": "1385/26/05/STD/28260",
@@ -77531,15 +77530,15 @@
     "drumno": "Z-184",
     "length": 7060,
     "weight": 4030,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "1",
     "machine": "CS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4081
   },
   {
-    "id": 4082,
     "workorder": "2057/26/01",
     "joborder": "2057/26/01/STD/1",
     "label_no": "2057/26/01/STD/28263",
@@ -77555,10 +77554,10 @@
     "machine": "CS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمود حمدي صابر"
+    "operator": "محمود حمدي صابر",
+    "id": 4082
   },
   {
-    "id": 4083,
     "workorder": "1763/25/02",
     "joborder": "1763/25/02/STD/1",
     "label_no": "1763/25/02/STD/28263",
@@ -77574,10 +77573,10 @@
     "machine": "CS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمود حمدي صابر"
+    "operator": "محمود حمدي صابر",
+    "id": 4083
   },
   {
-    "id": 4084,
     "workorder": "2057/26/04",
     "joborder": "2057/26/04/STD/1",
     "label_no": "2057/26/04/STD/28262",
@@ -77593,10 +77592,10 @@
     "machine": "CS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمود حمدي صابر"
+    "operator": "محمود حمدي صابر",
+    "id": 4084
   },
   {
-    "id": 4085,
     "workorder": "1560/25/18",
     "joborder": "1560/25/18/STD/1",
     "label_no": "1560/25/18/STD/28261",
@@ -77607,15 +77606,15 @@
     "drumno": "Z-58",
     "length": 3090,
     "weight": 1755,
-    "customer": "-",
+    "customer": "Energya Cables",
     "shift": "2",
     "machine": "CS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمود حمدي صابر"
+    "operator": "محمود حمدي صابر",
+    "id": 4085
   },
   {
-    "id": 4086,
     "workorder": "1713/26/05",
     "joborder": "1713/26/05/STD/1",
     "label_no": "1713/26/05/STD/42762",
@@ -77626,15 +77625,15 @@
     "drumno": "Z-61",
     "length": 5420,
     "weight": 992,
-    "customer": "-",
+    "customer": "VLG RO S.R.L.",
     "shift": "1",
     "machine": "CS02",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4086
   },
   {
-    "id": 4087,
     "workorder": "1713/26/05",
     "joborder": "1713/26/05/STD/1",
     "label_no": "1713/26/05/STD/42763",
@@ -77645,15 +77644,15 @@
     "drumno": "Z-63",
     "length": 13935,
     "weight": 2549,
-    "customer": "-",
+    "customer": "VLG RO S.R.L.",
     "shift": "1",
     "machine": "CS02",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4087
   },
   {
-    "id": 4088,
     "workorder": "1713/26/05",
     "joborder": "1713/26/05/STD/1",
     "label_no": "1713/26/05/STD/42763",
@@ -77664,15 +77663,15 @@
     "drumno": "Z-63",
     "length": 485,
     "weight": 89,
-    "customer": "-",
+    "customer": "VLG RO S.R.L.",
     "shift": "2",
     "machine": "CS02",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "وائل عبد العليم محمد"
+    "operator": "وائل عبد العليم محمد",
+    "id": 4088
   },
   {
-    "id": 4089,
     "workorder": "1713/26/05",
     "joborder": "1713/26/05/STD/1",
     "label_no": "1713/26/05/STD/42764",
@@ -77683,15 +77682,15 @@
     "drumno": "Z-184",
     "length": 14420,
     "weight": 2638,
-    "customer": "-",
+    "customer": "VLG RO S.R.L.",
     "shift": "2",
     "machine": "CS02",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "وائل عبد العليم محمد"
+    "operator": "وائل عبد العليم محمد",
+    "id": 4089
   },
   {
-    "id": 4090,
     "workorder": "1316/26/02",
     "joborder": "1316/26/02/STD/1",
     "label_no": "1316/26/02/STD/26248",
@@ -77707,10 +77706,10 @@
     "machine": "DS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4090
   },
   {
-    "id": 4091,
     "workorder": "1766/26/03",
     "joborder": "1766/26/03/STD/1",
     "label_no": "1766/26/03/STD/26247",
@@ -77721,15 +77720,15 @@
     "drumno": "H-98",
     "length": 12310,
     "weight": 818,
-    "customer": "-",
+    "customer": "Energya Cables",
     "shift": "1",
     "machine": "DS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4091
   },
   {
-    "id": 4092,
     "workorder": "1316/26/02",
     "joborder": "1316/26/02/STD/1",
     "label_no": "1316/26/02/STD/26244",
@@ -77745,10 +77744,10 @@
     "machine": "DS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4092
   },
   {
-    "id": 4093,
     "workorder": "1316/26/02",
     "joborder": "1316/26/02/STD/1",
     "label_no": "1316/26/02/STD/26245",
@@ -77764,10 +77763,10 @@
     "machine": "DS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4093
   },
   {
-    "id": 4094,
     "workorder": "1316/26/02",
     "joborder": "1316/26/02/STD/1",
     "label_no": "1316/26/02/STD/26246",
@@ -77783,10 +77782,10 @@
     "machine": "DS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4094
   },
   {
-    "id": 4095,
     "workorder": "2124/26/04",
     "joborder": "2124/26/04/STD/1",
     "label_no": "2124/26/04/STD/26252",
@@ -77802,10 +77801,10 @@
     "machine": "DS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمد محمود محمد"
+    "operator": "محمد محمود محمد",
+    "id": 4095
   },
   {
-    "id": 4096,
     "workorder": "1938/26/02",
     "joborder": "1938/26/02/STD/1",
     "label_no": "1938/26/02/STD/26250",
@@ -77816,15 +77815,15 @@
     "drumno": "G-131",
     "length": 16800,
     "weight": 1107,
-    "customer": "-",
+    "customer": "Sadacavi",
     "shift": "2",
     "machine": "DS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمد محمود محمد"
+    "operator": "محمد محمود محمد",
+    "id": 4096
   },
   {
-    "id": 4097,
     "workorder": "1934/26/01",
     "joborder": "1934/26/01/STD/1",
     "label_no": "1934/26/01/STD/26251",
@@ -77840,10 +77839,10 @@
     "machine": "DS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "وحيد محمد عبدالرحيم"
+    "operator": "وحيد محمد عبدالرحيم",
+    "id": 4097
   },
   {
-    "id": 4098,
     "workorder": "1766/26/03",
     "joborder": "1766/26/03/STD/1",
     "label_no": "1766/26/03/STD/26249",
@@ -77854,15 +77853,15 @@
     "drumno": "H-80",
     "length": 12310,
     "weight": 818,
-    "customer": "-",
+    "customer": "Energya Cables",
     "shift": "2",
     "machine": "DS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "وحيد محمد عبدالرحيم"
+    "operator": "وحيد محمد عبدالرحيم",
+    "id": 4098
   },
   {
-    "id": 4099,
     "workorder": "1773/26/02",
     "joborder": "1773/26/02/STD/1",
     "label_no": "1773/26/02/STD/3829",
@@ -77878,10 +77877,10 @@
     "machine": "RS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4099
   },
   {
-    "id": 4100,
     "workorder": "809/26/01",
     "joborder": "809/26/01/STD/1",
     "label_no": "809/26/01/STD/3827",
@@ -77892,15 +77891,15 @@
     "drumno": "T-61",
     "length": 6240,
     "weight": 6568,
-    "customer": "-",
+    "customer": "السويدي كابلز",
     "shift": "1",
     "machine": "RS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4100
   },
   {
-    "id": 4101,
     "workorder": "809/26/01",
     "joborder": "809/26/01/STD/1",
     "label_no": "809/26/01/STD/3828",
@@ -77911,15 +77910,15 @@
     "drumno": "Z-215",
     "length": 5355,
     "weight": 5637,
-    "customer": "-",
+    "customer": "السويدي كابلز",
     "shift": "1",
     "machine": "RS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4101
   },
   {
-    "id": 4102,
     "workorder": "1773/26/02",
     "joborder": "1773/26/02/STD/1",
     "label_no": "1773/26/02/STD/3829",
@@ -77935,10 +77934,10 @@
     "machine": "RS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "كريم سمير يوسف"
+    "operator": "كريم سمير يوسف",
+    "id": 4102
   },
   {
-    "id": 4103,
     "workorder": "1773/26/02",
     "joborder": "1773/26/02/STD/1",
     "label_no": "1773/26/02/STD/3830",
@@ -77954,10 +77953,10 @@
     "machine": "RS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "كريم سمير يوسف"
+    "operator": "كريم سمير يوسف",
+    "id": 4103
   },
   {
-    "id": 4104,
     "workorder": "1773/26/02",
     "joborder": "1773/26/02/STD/1",
     "label_no": "1773/26/02/STD/3832",
@@ -77973,10 +77972,10 @@
     "machine": "RS01",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "كريم سمير يوسف"
+    "operator": "كريم سمير يوسف",
+    "id": 4104
   },
   {
-    "id": 4105,
     "workorder": "1990/26/19",
     "joborder": "1990/26/19/STD/1",
     "label_no": "1990/26/19/STD/28247",
@@ -77987,15 +77986,15 @@
     "drumno": "T-65",
     "length": 1050,
     "weight": 325,
-    "customer": "-",
+    "customer": "Energya Cables",
     "shift": "1",
     "machine": "RS02",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4105
   },
   {
-    "id": 4106,
     "workorder": "2024/26/03",
     "joborder": "2024/26/03/STD/1",
     "label_no": "2024/26/03/STD/28245",
@@ -78006,15 +78005,15 @@
     "drumno": "WITHOUT",
     "length": 8400,
     "weight": 7008,
-    "customer": "-",
+    "customer": "Energya Cables",
     "shift": "1",
     "machine": "RS02",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4106
   },
   {
-    "id": 4107,
     "workorder": "1586/26/01",
     "joborder": "1586/26/01/STD/1",
     "label_no": "1586/26/01/STD/28244",
@@ -78030,10 +78029,10 @@
     "machine": "RS02",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4107
   },
   {
-    "id": 4108,
     "workorder": "1934/26/19",
     "joborder": "1934/26/19/STD/1",
     "label_no": "1934/26/19/STD/28247",
@@ -78049,10 +78048,10 @@
     "machine": "RS02",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمود حسين عبد الحليم"
+    "operator": "محمود حسين عبد الحليم",
+    "id": 4108
   },
   {
-    "id": 4109,
     "workorder": "1990/26/03",
     "joborder": "1990/26/03/STD/1",
     "label_no": "1990/26/03/STD/28247",
@@ -78063,15 +78062,15 @@
     "drumno": "T-65",
     "length": 2863.6,
     "weight": 2343,
-    "customer": "-",
+    "customer": "Energya Cables",
     "shift": "2",
     "machine": "RS02",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمود حسين عبد الحليم"
+    "operator": "محمود حسين عبد الحليم",
+    "id": 4109
   },
   {
-    "id": 4110,
     "workorder": "1934/26/19",
     "joborder": "1934/26/19/STD/1",
     "label_no": "1934/26/19/STD/28248",
@@ -78087,10 +78086,10 @@
     "machine": "RS02",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمود حسين عبد الحليم"
+    "operator": "محمود حسين عبد الحليم",
+    "id": 4110
   },
   {
-    "id": 4111,
     "workorder": "1990/26/03",
     "joborder": "1990/26/03/STD/1",
     "label_no": "1990/26/03/STD/28248",
@@ -78101,15 +78100,15 @@
     "drumno": "T-9",
     "length": 3531.8,
     "weight": 2890,
-    "customer": "-",
+    "customer": "Energya Cables",
     "shift": "2",
     "machine": "RS02",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمود حسين عبد الحليم"
+    "operator": "محمود حسين عبد الحليم",
+    "id": 4111
   },
   {
-    "id": 4112,
     "workorder": "1934/26/19",
     "joborder": "1934/26/19/STD/1",
     "label_no": "1934/26/19/STD/28249",
@@ -78125,10 +78124,10 @@
     "machine": "RS02",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمود حسين عبد الحليم"
+    "operator": "محمود حسين عبد الحليم",
+    "id": 4112
   },
   {
-    "id": 4113,
     "workorder": "1990/26/03",
     "joborder": "1990/26/03/STD/1",
     "label_no": "1990/26/03/STD/28249",
@@ -78139,15 +78138,15 @@
     "drumno": "Z-226",
     "length": 1463.6,
     "weight": 1198,
-    "customer": "-",
+    "customer": "Energya Cables",
     "shift": "2",
     "machine": "RS02",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمود حسين عبد الحليم"
+    "operator": "محمود حسين عبد الحليم",
+    "id": 4113
   },
   {
-    "id": 4114,
     "workorder": "1385/26/03",
     "joborder": "1385/26/03/STD/1",
     "label_no": "1385/26/03/STD/15454",
@@ -78158,15 +78157,15 @@
     "drumno": "Z-135",
     "length": 6180,
     "weight": 5594,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "1",
     "machine": "RS03",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4114
   },
   {
-    "id": 4115,
     "workorder": "1957/26/01",
     "joborder": "1957/26/01/STD/1",
     "label_no": "1957/26/01/STD/15452",
@@ -78182,10 +78181,10 @@
     "machine": "RS03",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4115
   },
   {
-    "id": 4116,
     "workorder": "1055/26/02",
     "joborder": "1055/26/02/STD/1",
     "label_no": "1055/26/02/STD/15451",
@@ -78201,10 +78200,10 @@
     "machine": "RS03",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4116
   },
   {
-    "id": 4117,
     "workorder": "1385/26/03",
     "joborder": "1385/26/03/STD/1",
     "label_no": "1385/26/03/STD/15454",
@@ -78215,15 +78214,15 @@
     "drumno": "Z-135",
     "length": 2060,
     "weight": 1864,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "2",
     "machine": "RS03",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمد اشرف حسين"
+    "operator": "محمد اشرف حسين",
+    "id": 4117
   },
   {
-    "id": 4118,
     "workorder": "1385/26/03",
     "joborder": "1385/26/03/STD/1",
     "label_no": "1385/26/03/STD/15455",
@@ -78234,15 +78233,15 @@
     "drumno": "Z-162",
     "length": 3090,
     "weight": 2796,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "2",
     "machine": "RS03",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمد اشرف حسين"
+    "operator": "محمد اشرف حسين",
+    "id": 4118
   },
   {
-    "id": 4119,
     "workorder": "1385/26/03",
     "joborder": "1385/26/03/STD/1",
     "label_no": "1385/26/03/STD/2541",
@@ -78253,15 +78252,15 @@
     "drumno": "WITHOUT",
     "length": 4120,
     "weight": 3730,
-    "customer": "-",
+    "customer": "السويدي اليكتريك",
     "shift": "2",
     "machine": "RS03",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمد اشرف حسين"
+    "operator": "محمد اشرف حسين",
+    "id": 4119
   },
   {
-    "id": 4120,
     "workorder": "2099/26/01",
     "joborder": "2099/26/01/STD/1",
     "label_no": "2099/26/01/STD/18191",
@@ -78277,10 +78276,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "حسام حسن محمد"
+    "operator": "حسام حسن محمد",
+    "id": 4120
   },
   {
-    "id": 4121,
     "workorder": "1912/26/02",
     "joborder": "1912/26/02/STD/1",
     "label_no": "1912/26/02/STD/18190",
@@ -78296,10 +78295,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "حسام حسن محمد"
+    "operator": "حسام حسن محمد",
+    "id": 4121
   },
   {
-    "id": 4122,
     "workorder": "1896/26/11",
     "joborder": "1896/26/11/STD/1",
     "label_no": "1896/26/11/STD/18189",
@@ -78315,10 +78314,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4122
   },
   {
-    "id": 4123,
     "workorder": "2159/26/17",
     "joborder": "2159/26/17/STD/1",
     "label_no": "2159/26/17/STD/18188",
@@ -78334,10 +78333,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4123
   },
   {
-    "id": 4124,
     "workorder": "1996/26/08",
     "joborder": "1996/26/08/STD/1",
     "label_no": "1996/26/08/STD/18187",
@@ -78353,10 +78352,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4124
   },
   {
-    "id": 4125,
     "workorder": "1797/26/03",
     "joborder": "1797/26/03/STD/1",
     "label_no": "1797/26/03/STD/18186",
@@ -78372,10 +78371,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4125
   },
   {
-    "id": 4126,
     "workorder": "2124/26/10",
     "joborder": "2124/26/10/STD/1",
     "label_no": "2124/26/10/STD/18191",
@@ -78391,10 +78390,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمد مجدي حسين"
+    "operator": "محمد مجدي حسين",
+    "id": 4126
   },
   {
-    "id": 4127,
     "workorder": "2099/26/01",
     "joborder": "2099/26/01/STD/1",
     "label_no": "2099/26/01/STD/18191",
@@ -78410,10 +78409,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمد مجدي حسين"
+    "operator": "محمد مجدي حسين",
+    "id": 4127
   },
   {
-    "id": 4128,
     "workorder": "2124/26/10",
     "joborder": "2124/26/10/STD/1",
     "label_no": "2124/26/10/STD/18192",
@@ -78429,10 +78428,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمد مجدي حسين"
+    "operator": "محمد مجدي حسين",
+    "id": 4128
   },
   {
-    "id": 4129,
     "workorder": "2099/26/01",
     "joborder": "2099/26/01/STD/1",
     "label_no": "2099/26/01/STD/18192",
@@ -78448,10 +78447,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمد مجدي حسين"
+    "operator": "محمد مجدي حسين",
+    "id": 4129
   },
   {
-    "id": 4130,
     "workorder": "2124/26/10",
     "joborder": "2124/26/10/STD/1",
     "label_no": "2124/26/10/STD/18193",
@@ -78467,10 +78466,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمد مجدي حسين"
+    "operator": "محمد مجدي حسين",
+    "id": 4130
   },
   {
-    "id": 4131,
     "workorder": "2099/26/01",
     "joborder": "2099/26/01/STD/1",
     "label_no": "2099/26/01/STD/18193",
@@ -78486,10 +78485,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمد مجدي حسين"
+    "operator": "محمد مجدي حسين",
+    "id": 4131
   },
   {
-    "id": 4132,
     "workorder": "2124/26/10",
     "joborder": "2124/26/10/STD/1",
     "label_no": "2124/26/10/STD/18194",
@@ -78505,10 +78504,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمد مجدي حسين"
+    "operator": "محمد مجدي حسين",
+    "id": 4132
   },
   {
-    "id": 4133,
     "workorder": "2099/26/01",
     "joborder": "2099/26/01/STD/1",
     "label_no": "2099/26/01/STD/18194",
@@ -78524,10 +78523,10 @@
     "machine": "RS04",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "محمد مجدي حسين"
+    "operator": "محمد مجدي حسين",
+    "id": 4133
   },
   {
-    "id": 4134,
     "workorder": "1714/26/03",
     "joborder": "1714/26/03/STD/1",
     "label_no": "1714/26/03/STD/26275",
@@ -78538,15 +78537,15 @@
     "drumno": "C-45",
     "length": 7000,
     "weight": 1334,
-    "customer": "-",
+    "customer": "INSELL",
     "shift": "1",
     "machine": "RS05",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4134
   },
   {
-    "id": 4135,
     "workorder": "1560/26/15",
     "joborder": "1560/26/15/STD/1",
     "label_no": "1560/26/15/STD/26048",
@@ -78557,15 +78556,15 @@
     "drumno": "C-70",
     "length": 1500,
     "weight": 3207,
-    "customer": "-",
+    "customer": "Eland Cables",
     "shift": "1",
     "machine": "RS05",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4135
   },
   {
-    "id": 4136,
     "workorder": "1714/26/03",
     "joborder": "1714/26/03/STD/1",
     "label_no": "1714/26/03/STD/26275",
@@ -78576,15 +78575,15 @@
     "drumno": "C-54",
     "length": 3550,
     "weight": 677,
-    "customer": "-",
+    "customer": "INSELL",
     "shift": "2",
     "machine": "RS05",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "يسري خليفة محمد"
+    "operator": "يسري خليفة محمد",
+    "id": 4136
   },
   {
-    "id": 4137,
     "workorder": "1714/26/03",
     "joborder": "1714/26/03/STD/1",
     "label_no": "1714/26/03/STD/26276",
@@ -78595,15 +78594,15 @@
     "drumno": "C-80",
     "length": 6200,
     "weight": 1181,
-    "customer": "-",
+    "customer": "INSELL",
     "shift": "2",
     "machine": "RS05",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "يسري خليفة محمد"
+    "operator": "يسري خليفة محمد",
+    "id": 4137
   },
   {
-    "id": 4138,
     "workorder": "2159/26/24",
     "joborder": "2159/26/24/STD/1",
     "label_no": "2159/26/24/STD/26960",
@@ -78619,10 +78618,10 @@
     "machine": "RS06",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4138
   },
   {
-    "id": 4139,
     "workorder": "2159/26/24",
     "joborder": "2159/26/24/STD/1",
     "label_no": "2159/26/24/STD/26961",
@@ -78638,6 +78637,7 @@
     "machine": "RS06",
     "dateIso": "2026-11-06",
     "dateDisplay": "06/11/2026",
-    "operator": "احمد عبده السيد"
+    "operator": "احمد عبده السيد",
+    "id": 4139
   }
 ]
