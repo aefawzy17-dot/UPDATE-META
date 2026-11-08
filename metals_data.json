@@ -78869,25 +78869,6 @@
     "id": 4151
   },
   {
-    "workorder": "1316/26/03",
-    "joborder": "1316/26/03/STD/1",
-    "label_no": "1316/26/03/STD/42767",
-    "cable": "0.6/1 KV,AL,1*120",
-    "size": "120",
-    "material": "AL",
-    "familyid": "LV",
-    "drumno": "Z-184",
-    "length": 5201.8,
-    "weight": 2341,
-    "customer": "-",
-    "shift": "3",
-    "machine": "CS01",
-    "dateIso": "2026-11-07",
-    "dateDisplay": "07/11/2026",
-    "operator": "محمود حمدي صابر",
-    "id": 4152
-  },
-  {
     "workorder": "1834/26/04",
     "joborder": "1834/26/04/STD/1",
     "label_no": "1834/26/04/STD/28265",
@@ -78904,7 +78885,7 @@
     "dateIso": "2026-11-07",
     "dateDisplay": "07/11/2026",
     "operator": "محمود حمدي صابر",
-    "id": 4153
+    "id": 4152
   },
   {
     "workorder": "2071/26/04",
@@ -78923,7 +78904,7 @@
     "dateIso": "2026-11-07",
     "dateDisplay": "07/11/2026",
     "operator": "محمود حمدي صابر",
-    "id": 4154
+    "id": 4153
   },
   {
     "workorder": "1990/26/05",
@@ -78942,7 +78923,7 @@
     "dateIso": "2026-11-07",
     "dateDisplay": "07/11/2026",
     "operator": "محمود صلاح",
-    "id": 4155
+    "id": 4154
   },
   {
     "workorder": "1955/26/01",
@@ -78961,7 +78942,7 @@
     "dateIso": "2026-11-07",
     "dateDisplay": "07/11/2026",
     "operator": "محمد ابراهيم محمد",
-    "id": 4156
+    "id": 4155
   },
   {
     "workorder": "1990/26/05",
@@ -78980,7 +78961,7 @@
     "dateIso": "2026-11-07",
     "dateDisplay": "07/11/2026",
     "operator": "محمد ابراهيم محمد",
-    "id": 4157
+    "id": 4156
   },
   {
     "workorder": "2196/26/01",
@@ -78999,7 +78980,7 @@
     "dateIso": "2026-11-07",
     "dateDisplay": "07/11/2026",
     "operator": "صلاح عادل عبد النبي",
-    "id": 4158
+    "id": 4157
   },
   {
     "workorder": "2124/26/06",
@@ -79018,6 +78999,25 @@
     "dateIso": "2026-11-07",
     "dateDisplay": "07/11/2026",
     "operator": "صلاح عادل",
+    "id": 4158
+  },
+  {
+    "workorder": "1316/26/03",
+    "joborder": "1316/26/03/STD/1",
+    "label_no": "1316/26/03/STD/42767",
+    "cable": "0.6/1 KV,AL,1*120",
+    "size": "120",
+    "material": "AL",
+    "familyid": "LV",
+    "drumno": "Z-184",
+    "length": 5201.8,
+    "weight": 11707,
+    "customer": "-",
+    "shift": "3",
+    "machine": "CS02",
+    "dateIso": "2026-11-07",
+    "dateDisplay": "07/11/2026",
+    "operator": "محمود حمدي صابر",
     "id": 4159
   },
   {
