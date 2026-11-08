@@ -3,13 +3,12 @@ name: Update dashboard
 on:
   push:
     branches: [main]
-    paths:
-      - 'incoming/**'
-      - 'Master_Plan/*.xlsx'
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: update-dashboard
@@ -46,3 +45,23 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
