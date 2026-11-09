@@ -80525,20 +80525,39 @@
     "workorder": "2196/26/01",
     "joborder": "2196/26/01/STD/1",
     "label_no": "2196/26/01/STD/42769",
-    "cable": "0.6/1 KV,AL,1*240",
-    "size": "240",
+    "cable": "0.6/1 KV,AL,1*120",
+    "size": "120",
     "material": "AL",
     "familyid": "LV",
     "drumno": "WITHOUT",
     "length": 3440,
-    "weight": 7784,
+    "weight": 1557,
     "customer": "-",
     "shift": "1",
     "machine": "CS02",
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
-    "operator": "محمد فوزي محمد",
+    "operator": "عبد الفتاح خالد حسين",
     "id": 4239
+  },
+  {
+    "workorder": "2196/26/01",
+    "joborder": "2196/26/01/STD/1",
+    "label_no": "2196/26/01/STD/42769",
+    "cable": "0.6/1 KV,AL,1*120",
+    "size": "120",
+    "material": "AL",
+    "familyid": "LV",
+    "drumno": "WITHOUT",
+    "length": 4160,
+    "weight": 1883,
+    "customer": "-",
+    "shift": "2",
+    "machine": "CS02",
+    "dateIso": "2026-11-08",
+    "dateDisplay": "08/11/2026",
+    "operator": "محمد ابراهيم محمد",
+    "id": 4240
   },
   {
     "workorder": "1766/26/08",
@@ -80557,7 +80576,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمد ابراهيم محمد",
-    "id": 4240
+    "id": 4241
   },
   {
     "workorder": "2057/26/05",
@@ -80576,7 +80595,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمد ابراهيم محمد",
-    "id": 4241
+    "id": 4242
   },
   {
     "workorder": "1385/26/06",
@@ -80595,7 +80614,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمد ابراهيم محمد",
-    "id": 4242
+    "id": 4243
   },
   {
     "workorder": "2057/26/02",
@@ -80608,25 +80627,6 @@
     "drumno": "C-72",
     "length": 2065,
     "weight": 94,
-    "customer": "-",
-    "shift": "2",
-    "machine": "CS02",
-    "dateIso": "2026-11-08",
-    "dateDisplay": "08/11/2026",
-    "operator": "محمد ابراهيم محمد",
-    "id": 4243
-  },
-  {
-    "workorder": "2196/26/01",
-    "joborder": "2196/26/01/STD/1",
-    "label_no": "2196/26/01/STD/42769",
-    "cable": "0.6/1 KV,AL,1*240",
-    "size": "240",
-    "material": "AL",
-    "familyid": "LV",
-    "drumno": "WITHOUT",
-    "length": 4160,
-    "weight": 9414,
     "customer": "-",
     "shift": "2",
     "machine": "CS02",
