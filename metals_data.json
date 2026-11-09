@@ -80486,6 +80486,25 @@
   {
     "workorder": "1546/26/17",
     "joborder": "1546/26/17/STD/1",
+    "label_no": "1546/26/17/STD/28393",
+    "cable": "0.6/1 KV,AL,1*240",
+    "size": "240",
+    "material": "AL",
+    "familyid": "LV",
+    "drumno": "Z-214",
+    "length": 3950,
+    "weight": 2501,
+    "customer": "Faber Kabel",
+    "shift": "3",
+    "machine": "CN",
+    "dateIso": "2026-11-08",
+    "dateDisplay": "08/11/2026",
+    "operator": "عبد الفتاح خالد حسين",
+    "id": 4237
+  },
+  {
+    "workorder": "1546/26/17",
+    "joborder": "1546/26/17/STD/1",
     "label_no": "1546/26/17/STD/28394",
     "cable": "0.6/1 KV,AL,1*240",
     "size": "240",
@@ -80500,45 +80519,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "عبد الفتاح خالد حسين",
-    "id": 4237
-  },
-  {
-    "workorder": "1546/26/17",
-    "joborder": "1546/26/17/STD/1",
-    "label_no": "1546/26/17/STD/28396",
-    "cable": "0.6/1 KV,AL,1*240",
-    "size": "240",
-    "material": "AL",
-    "familyid": "LV",
-    "drumno": "Z-142",
-    "length": 100,
-    "weight": 63,
-    "customer": "Faber Kabel",
-    "shift": "3",
-    "machine": "CN",
-    "dateIso": "2026-11-08",
-    "dateDisplay": "08/11/2026",
-    "operator": "عبد الفتاح خالد حسين",
     "id": 4238
-  },
-  {
-    "workorder": "1546/16/17",
-    "joborder": "1546/16/17/STD/1",
-    "label_no": "1546/16/17/STD/28393",
-    "cable": "0.6/1 KV,AL,1*240",
-    "size": "240",
-    "material": "AL",
-    "familyid": "LV",
-    "drumno": "Z-214",
-    "length": 3950,
-    "weight": 2448,
-    "customer": "-",
-    "shift": "3",
-    "machine": "CN",
-    "dateIso": "2026-11-08",
-    "dateDisplay": "08/11/2026",
-    "operator": "وحيد محمد عبدالرحيم",
-    "id": 4239
   },
   {
     "workorder": "2196/26/01",
@@ -80550,13 +80531,32 @@
     "familyid": "LV",
     "drumno": "WITHOUT",
     "length": 3440,
-    "weight": 311,
+    "weight": 7784,
     "customer": "-",
     "shift": "1",
     "machine": "CS02",
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمد فوزي محمد",
+    "id": 4239
+  },
+  {
+    "workorder": "1766/26/08",
+    "joborder": "1766/26/08/STD/1",
+    "label_no": "1766/26/08/STD/42771",
+    "cable": "0.6/1 KV,AL,1*120",
+    "size": "120",
+    "material": "AL",
+    "familyid": "LV",
+    "drumno": "C-64",
+    "length": 491,
+    "weight": 241,
+    "customer": "Energya Cables",
+    "shift": "2",
+    "machine": "CS02",
+    "dateIso": "2026-11-08",
+    "dateDisplay": "08/11/2026",
+    "operator": "محمد ابراهيم محمد",
     "id": 4240
   },
   {
@@ -80568,8 +80568,8 @@
     "material": "AL",
     "familyid": "LV",
     "drumno": "C-64",
-    "length": -7.6,
-    "weight": -4,
+    "length": 475.7,
+    "weight": 233,
     "customer": "-",
     "shift": "2",
     "machine": "CS02",
@@ -80577,25 +80577,6 @@
     "dateDisplay": "08/11/2026",
     "operator": "محمد ابراهيم محمد",
     "id": 4241
-  },
-  {
-    "workorder": "1766/26/08",
-    "joborder": "1766/26/08/STD/1",
-    "label_no": "1766/26/08/STD/42771",
-    "cable": "0.6/1 KV,AL,1*120",
-    "size": "120",
-    "material": "AL",
-    "familyid": "LV",
-    "drumno": "C-64",
-    "length": 974.3,
-    "weight": 478,
-    "customer": "Energya Cables",
-    "shift": "2",
-    "machine": "CS02",
-    "dateIso": "2026-11-08",
-    "dateDisplay": "08/11/2026",
-    "operator": "محمد ابراهيم محمد",
-    "id": 4242
   },
   {
     "workorder": "1385/26/06",
@@ -80614,7 +80595,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمد ابراهيم محمد",
-    "id": 4243
+    "id": 4242
   },
   {
     "workorder": "2057/26/02",
@@ -80633,7 +80614,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمد ابراهيم محمد",
-    "id": 4244
+    "id": 4243
   },
   {
     "workorder": "2196/26/01",
@@ -80652,6 +80633,25 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمد ابراهيم محمد",
+    "id": 4244
+  },
+  {
+    "workorder": "1766/26/08",
+    "joborder": "1766/26/08/STD/1",
+    "label_no": "1766/26/08/STD/42771",
+    "cable": "0.6/1 KV,AL,1*120",
+    "size": "120",
+    "material": "AL",
+    "familyid": "LV",
+    "drumno": "C-64",
+    "length": 1139.4,
+    "weight": 559,
+    "customer": "Energya Cables",
+    "shift": "3",
+    "machine": "CS02",
+    "dateIso": "2026-11-08",
+    "dateDisplay": "08/11/2026",
+    "operator": "صلاح عادل عبد النبي",
     "id": 4245
   },
   {
@@ -80663,8 +80663,8 @@
     "material": "AL",
     "familyid": "LV",
     "drumno": "C-64",
-    "length": -17.8,
-    "weight": -8,
+    "length": 1103.9,
+    "weight": 542,
     "customer": "-",
     "shift": "3",
     "machine": "CS02",
@@ -80672,25 +80672,6 @@
     "dateDisplay": "08/11/2026",
     "operator": "صلاح عادل عبد النبي",
     "id": 4246
-  },
-  {
-    "workorder": "1766/26/08",
-    "joborder": "1766/26/08/STD/1",
-    "label_no": "1766/26/08/STD/42771",
-    "cable": "0.6/1 KV,AL,1*120",
-    "size": "120",
-    "material": "AL",
-    "familyid": "LV",
-    "drumno": "C-64",
-    "length": 2261.1,
-    "weight": 1109,
-    "customer": "Energya Cables",
-    "shift": "3",
-    "machine": "CS02",
-    "dateIso": "2026-11-08",
-    "dateDisplay": "08/11/2026",
-    "operator": "صلاح عادل عبد النبي",
-    "id": 4247
   },
   {
     "workorder": "1385/26/06",
@@ -80709,7 +80690,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "صلاح عادل عبد النبي",
-    "id": 4248
+    "id": 4247
   },
   {
     "workorder": "1934/26/34",
@@ -80728,7 +80709,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمد ابراهيم الدسوقي",
-    "id": 4249
+    "id": 4248
   },
   {
     "workorder": "1990/26/05",
@@ -80747,6 +80728,25 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمد ابراهيم الدسوقي",
+    "id": 4249
+  },
+  {
+    "workorder": "1938/26/34",
+    "joborder": "1938/26/34/STD/1",
+    "label_no": "1938/26/34/STD/26266",
+    "cable": "0.6/1 KV,AL,1*50",
+    "size": "50",
+    "material": "AL",
+    "familyid": "LV",
+    "drumno": "H-18",
+    "length": 1700,
+    "weight": 219,
+    "customer": "Sadacavi",
+    "shift": "2",
+    "machine": "DS01",
+    "dateIso": "2026-11-08",
+    "dateDisplay": "08/11/2026",
+    "operator": "احمد سامح عبد الحميد",
     "id": 4250
   },
   {
@@ -80826,25 +80826,6 @@
     "id": 4254
   },
   {
-    "workorder": "1938/26/34",
-    "joborder": "1938/26/34/STD/1",
-    "label_no": "1938/26/34/STD/26266",
-    "cable": "0.6/1 KV,CU,1*630",
-    "size": "630",
-    "material": "CU",
-    "familyid": "LV",
-    "drumno": "H-18",
-    "length": 1700,
-    "weight": 9542,
-    "customer": "Sadacavi",
-    "shift": "2",
-    "machine": "DS01",
-    "dateIso": "2026-11-08",
-    "dateDisplay": "08/11/2026",
-    "operator": "احمد عبده السيد",
-    "id": 4255
-  },
-  {
     "workorder": "1385/26/13",
     "joborder": "1385/26/13/STD/1",
     "label_no": "1385/26/13/STD/26271",
@@ -80861,7 +80842,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "عبده علي عبد المعبود",
-    "id": 4256
+    "id": 4255
   },
   {
     "workorder": "1385/26/13",
@@ -80880,7 +80861,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "عبده علي عبد المعبود",
-    "id": 4257
+    "id": 4256
   },
   {
     "workorder": "2070/26/03",
@@ -80899,7 +80880,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "وحيد محمد عبدالرحيم",
-    "id": 4258
+    "id": 4257
   },
   {
     "workorder": "1264/26/04",
@@ -80918,7 +80899,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "عماد محمد محمود",
-    "id": 4259
+    "id": 4258
   },
   {
     "workorder": "1264/26/04",
@@ -80937,7 +80918,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "عماد محمد محمود",
-    "id": 4260
+    "id": 4259
   },
   {
     "workorder": "1264/26/04",
@@ -80956,7 +80937,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "احمد عبده السيد",
-    "id": 4261
+    "id": 4260
   },
   {
     "workorder": "1264/26/04",
@@ -80975,7 +80956,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "حماده السعيد احمد",
-    "id": 4262
+    "id": 4261
   },
   {
     "workorder": "1264/26/04",
@@ -80994,7 +80975,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "كريم سمير يوسف",
-    "id": 4263
+    "id": 4262
   },
   {
     "workorder": "1264/26/04",
@@ -81013,7 +80994,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "وحيد محمد عبدالرحيم",
-    "id": 4264
+    "id": 4263
   },
   {
     "workorder": "2057/26/01",
@@ -81032,7 +81013,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "عطيه شوقي عبد الفتاح",
-    "id": 4265
+    "id": 4264
   },
   {
     "workorder": "1933/26/06",
@@ -81051,7 +81032,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "عطيه شوقي عبد الفتاح",
-    "id": 4266
+    "id": 4265
   },
   {
     "workorder": "1763/25/02",
@@ -81070,7 +81051,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "احمد عبده السيد",
-    "id": 4267
+    "id": 4266
   },
   {
     "workorder": "2057/26/01",
@@ -81089,7 +81070,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "مصطفي محمد عبد المعطي",
-    "id": 4268
+    "id": 4267
   },
   {
     "workorder": "1763/26/02",
@@ -81108,7 +81089,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمود حسين عبد الحليم",
-    "id": 4269
+    "id": 4268
   },
   {
     "workorder": "2057/26/01",
@@ -81127,7 +81108,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "وحيد محمد عبدالرحيم",
-    "id": 4270
+    "id": 4269
   },
   {
     "workorder": "2025/26/05",
@@ -81146,7 +81127,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمود صلاح محمد",
-    "id": 4271
+    "id": 4270
   },
   {
     "workorder": "1934/26/18",
@@ -81165,7 +81146,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "احمد عبده السيد",
-    "id": 4272
+    "id": 4271
   },
   {
     "workorder": "1934/26/18",
@@ -81184,7 +81165,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "احمد عبد الحميد السيد",
-    "id": 4273
+    "id": 4272
   },
   {
     "workorder": "1933/26/05",
@@ -81203,7 +81184,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمد اشرف حسين",
-    "id": 4274
+    "id": 4273
   },
   {
     "workorder": "1934/26/18",
@@ -81222,7 +81203,178 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمد اشرف حسين",
+    "id": 4274
+  },
+  {
+    "workorder": "1871/26/15",
+    "joborder": "1871/26/15/STD/1",
+    "label_no": "1871/26/15/STD/15497",
+    "cable": "0.6/1 KV,CU,1*150",
+    "size": "150",
+    "material": "CU",
+    "familyid": "LV",
+    "drumno": "E-61",
+    "length": 434.1,
+    "weight": 571,
+    "customer": "-",
+    "shift": "1",
+    "machine": "RS04",
+    "dateIso": "2026-11-08",
+    "dateDisplay": "08/11/2026",
+    "operator": "سعيد محمد",
     "id": 4275
+  },
+  {
+    "workorder": "1871/26/14",
+    "joborder": "1871/26/14/STD/1",
+    "label_no": "1871/26/14/STD/15497",
+    "cable": "0.6/1 KV,CU,1*150",
+    "size": "150",
+    "material": "CU",
+    "familyid": "LV",
+    "drumno": "E-61",
+    "length": 434.1,
+    "weight": 571,
+    "customer": "-",
+    "shift": "1",
+    "machine": "RS04",
+    "dateIso": "2026-11-08",
+    "dateDisplay": "08/11/2026",
+    "operator": "سعيد محمد",
+    "id": 4276
+  },
+  {
+    "workorder": "1871/26/16",
+    "joborder": "1871/26/16/STD/1",
+    "label_no": "1871/26/16/STD/15497",
+    "cable": "0.6/1 KV,CU,1*150",
+    "size": "150",
+    "material": "CU",
+    "familyid": "LV",
+    "drumno": "E-61",
+    "length": 434.1,
+    "weight": 571,
+    "customer": "-",
+    "shift": "1",
+    "machine": "RS04",
+    "dateIso": "2026-11-08",
+    "dateDisplay": "08/11/2026",
+    "operator": "سعيد محمد",
+    "id": 4277
+  },
+  {
+    "workorder": "1871/26/17",
+    "joborder": "1871/26/17/STD/1",
+    "label_no": "1871/26/17/STD/15497",
+    "cable": "0.6/1 KV,CU,1*150",
+    "size": "150",
+    "material": "CU",
+    "familyid": "LV",
+    "drumno": "E-61",
+    "length": 434.1,
+    "weight": 571,
+    "customer": "-",
+    "shift": "1",
+    "machine": "RS04",
+    "dateIso": "2026-11-08",
+    "dateDisplay": "08/11/2026",
+    "operator": "سعيد محمد",
+    "id": 4278
+  },
+  {
+    "workorder": "2019/26/10",
+    "joborder": "2019/26/10/STD/1",
+    "label_no": "2019/26/10/STD/15497",
+    "cable": "0.6/1 KV,CU,1*150",
+    "size": "150",
+    "material": "CU",
+    "familyid": "LV",
+    "drumno": "E-61",
+    "length": 517.8,
+    "weight": 679,
+    "customer": "-",
+    "shift": "1",
+    "machine": "RS04",
+    "dateIso": "2026-11-08",
+    "dateDisplay": "08/11/2026",
+    "operator": "سعيد محمد",
+    "id": 4279
+  },
+  {
+    "workorder": "2019/26/04",
+    "joborder": "2019/26/04/STD/1",
+    "label_no": "2019/26/04/STD/15497",
+    "cable": "0.6/1 KV,CU,1*150",
+    "size": "150",
+    "material": "CU",
+    "familyid": "LV",
+    "drumno": "E-61",
+    "length": 517.8,
+    "weight": 681,
+    "customer": "-",
+    "shift": "1",
+    "machine": "RS04",
+    "dateIso": "2026-11-08",
+    "dateDisplay": "08/11/2026",
+    "operator": "سعيد محمد",
+    "id": 4280
+  },
+  {
+    "workorder": "2039/26/08",
+    "joborder": "2039/26/08/STD/1",
+    "label_no": "2039/26/08/STD/15497",
+    "cable": "0.6/1 KV,CU,1*150",
+    "size": "150",
+    "material": "CU",
+    "familyid": "LV",
+    "drumno": "E-61",
+    "length": 216,
+    "weight": 284,
+    "customer": "-",
+    "shift": "1",
+    "machine": "RS04",
+    "dateIso": "2026-11-08",
+    "dateDisplay": "08/11/2026",
+    "operator": "سعيد محمد",
+    "id": 4281
+  },
+  {
+    "workorder": "2039/26/07",
+    "joborder": "2039/26/07/STD/1",
+    "label_no": "2039/26/07/STD/15497",
+    "cable": "0.6/1 KV,CU,1*150",
+    "size": "150",
+    "material": "CU",
+    "familyid": "LV",
+    "drumno": "E-61",
+    "length": 216,
+    "weight": 284,
+    "customer": "-",
+    "shift": "1",
+    "machine": "RS04",
+    "dateIso": "2026-11-08",
+    "dateDisplay": "08/11/2026",
+    "operator": "سعيد محمد",
+    "id": 4282
+  },
+  {
+    "workorder": "2039/26/06",
+    "joborder": "2039/26/06/STD/1",
+    "label_no": "2039/26/06/STD/15497",
+    "cable": "0.6/1 KV,CU,1*150",
+    "size": "150",
+    "material": "CU",
+    "familyid": "LV",
+    "drumno": "E-61",
+    "length": 216,
+    "weight": 284,
+    "customer": "-",
+    "shift": "1",
+    "machine": "RS04",
+    "dateIso": "2026-11-08",
+    "dateDisplay": "08/11/2026",
+    "operator": "سعيد محمد",
+    "id": 4283
   },
   {
     "workorder": "1996/26/29",
@@ -81241,7 +81393,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "سعيد محمد الطيب",
-    "id": 4276
+    "id": 4284
   },
   {
     "workorder": "1896/26/18",
@@ -81260,26 +81412,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "سعيد محمد الطيب",
-    "id": 4277
-  },
-  {
-    "workorder": "2039/26/06",
-    "joborder": "2039/26/06/STD/1",
-    "label_no": "2039/26/06/STD/15497",
-    "cable": "0.6/1 KV,CU,1*150",
-    "size": "150",
-    "material": "CU",
-    "familyid": "LV",
-    "drumno": "E-61",
-    "length": 3420,
-    "weight": 4498,
-    "customer": "-",
-    "shift": "1",
-    "machine": "RS04",
-    "dateIso": "2026-11-08",
-    "dateDisplay": "08/11/2026",
-    "operator": "سعيد محمد الطيب",
-    "id": 4278
+    "id": 4285
   },
   {
     "workorder": "1834/26/06",
@@ -81298,7 +81431,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "سعيد محمد الطيب",
-    "id": 4279
+    "id": 4286
   },
   {
     "workorder": "1591/26/04",
@@ -81317,7 +81450,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "سعيد محمد الطيب",
-    "id": 4280
+    "id": 4287
   },
   {
     "workorder": "2101/26/20",
@@ -81336,7 +81469,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "احمد عبده السيد",
-    "id": 4281
+    "id": 4288
   },
   {
     "workorder": "1996/26/29",
@@ -81355,7 +81488,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "احمد عبده السيد",
-    "id": 4282
+    "id": 4289
   },
   {
     "workorder": "1828/26/01",
@@ -81374,7 +81507,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمد مجدي حسين",
-    "id": 4283
+    "id": 4290
   },
   {
     "workorder": "1828/26/01",
@@ -81393,7 +81526,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمد مجدي حسين",
-    "id": 4284
+    "id": 4291
   },
   {
     "workorder": "1828/26/01",
@@ -81412,7 +81545,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "وحيد محمد عبدالرحيم",
-    "id": 4285
+    "id": 4292
   },
   {
     "workorder": "2056/26/11",
@@ -81423,15 +81556,34 @@
     "material": "CU",
     "familyid": "LV",
     "drumno": "E-109",
-    "length": 2735.8,
-    "weight": 1142,
+    "length": 2062.6,
+    "weight": 862,
     "customer": "-",
     "shift": "1",
     "machine": "RS05",
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "علاء الصباحي محمد",
-    "id": 4286
+    "id": 4293
+  },
+  {
+    "workorder": "2056/26/10",
+    "joborder": "2056/26/10/STD/1",
+    "label_no": "2056/26/10/STD/26279",
+    "cable": "0.6/1 KV,CU,1*50",
+    "size": "50",
+    "material": "CU",
+    "familyid": "LV",
+    "drumno": "E-109",
+    "length": 2062.5,
+    "weight": 860,
+    "customer": "-",
+    "shift": "1",
+    "machine": "RS05",
+    "dateIso": "2026-11-08",
+    "dateDisplay": "08/11/2026",
+    "operator": "علاء الصباحي محمد",
+    "id": 4294
   },
   {
     "workorder": "2056/26/09",
@@ -81442,15 +81594,15 @@
     "material": "CU",
     "familyid": "LV",
     "drumno": "E-109",
-    "length": 2735.9,
-    "weight": 1141,
+    "length": 2062.5,
+    "weight": 860,
     "customer": "-",
     "shift": "1",
     "machine": "RS05",
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "علاء الصباحي محمد",
-    "id": 4287
+    "id": 4295
   },
   {
     "workorder": "2023/26/05",
@@ -81461,15 +81613,15 @@
     "material": "CU",
     "familyid": "LV",
     "drumno": "E-109",
-    "length": 2735.9,
-    "weight": 1141,
+    "length": 2062.5,
+    "weight": 860,
     "customer": "-",
     "shift": "1",
     "machine": "RS05",
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "علاء الصباحي محمد",
-    "id": 4288
+    "id": 4296
   },
   {
     "workorder": "1896/26/16",
@@ -81480,15 +81632,15 @@
     "material": "CU",
     "familyid": "LV",
     "drumno": "E-109",
-    "length": 172.4,
-    "weight": 72,
+    "length": 129.9,
+    "weight": 54,
     "customer": "-",
     "shift": "1",
     "machine": "RS05",
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "علاء الصباحي محمد",
-    "id": 4289
+    "id": 4297
   },
   {
     "workorder": "1766/26/20",
@@ -81507,7 +81659,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "احمد عبده السيد",
-    "id": 4290
+    "id": 4298
   },
   {
     "workorder": "1948/26/02",
@@ -81526,7 +81678,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "احمد عبده السيد",
-    "id": 4291
+    "id": 4299
   },
   {
     "workorder": "2012/26/04",
@@ -81545,7 +81697,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "احمد عبده السيد",
-    "id": 4292
+    "id": 4300
   },
   {
     "workorder": "2007/26/03",
@@ -81564,7 +81716,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "احمد عبده السيد",
-    "id": 4293
+    "id": 4301
   },
   {
     "workorder": "1947/26/11",
@@ -81583,7 +81735,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "احمد عبده السيد",
-    "id": 4294
+    "id": 4302
   },
   {
     "workorder": "2022/26/05",
@@ -81602,7 +81754,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "يسري خليفة محمد",
-    "id": 4295
+    "id": 4303
   },
   {
     "workorder": "1947/26/11",
@@ -81621,7 +81773,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "وحيد محمد عبدالرحيم",
-    "id": 4296
+    "id": 4304
   },
   {
     "workorder": "2125/26/04",
@@ -81640,7 +81792,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمد محرز السعيد",
-    "id": 4297
+    "id": 4305
   },
   {
     "workorder": "2125/26/04",
@@ -81659,7 +81811,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمد محرز السعيد",
-    "id": 4298
+    "id": 4306
   },
   {
     "workorder": "2125/26/04",
@@ -81678,7 +81830,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمد محرز السعيد",
-    "id": 4299
+    "id": 4307
   },
   {
     "workorder": "2125/26/04",
@@ -81697,7 +81849,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "احمد عبده السيد",
-    "id": 4300
+    "id": 4308
   },
   {
     "workorder": "2125/26/04",
@@ -81716,7 +81868,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمود حشمت عبدالجواد",
-    "id": 4301
+    "id": 4309
   },
   {
     "workorder": "2125/26/04",
@@ -81735,7 +81887,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "محمود حشمت عبدالجواد",
-    "id": 4302
+    "id": 4310
   },
   {
     "workorder": "2125/26/04",
@@ -81754,7 +81906,7 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "شريف رمضان عبد العظيم",
-    "id": 4303
+    "id": 4311
   },
   {
     "workorder": "2125/26/04",
@@ -81773,6 +81925,6 @@
     "dateIso": "2026-11-08",
     "dateDisplay": "08/11/2026",
     "operator": "شريف رمضان عبد العظيم",
-    "id": 4304
+    "id": 4312
   }
 ]
