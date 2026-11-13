@@ -145,6 +145,20 @@ function initFromPrecompiled(data) {
             const parsedCustom = JSON.parse(localSaved);
             if (Array.isArray(parsedCustom) && parsedCustom.length > 0) {
                 const customDates = new Set(parsedCustom.map(r => r.dateIso).filter(Boolean));
+                // Fill in missing operator names on locally-imported rows from the base data
+                // (older imports were saved without the operator field and would hide the names).
+                const opByRow = {}, opByMachShift = {};
+                combinedData.forEach(r => {
+                    if (!r.operator) return;
+                    opByRow[`${r.dateIso}|${r.machine}|${r.shift}|${r.label_no}`] = r.operator;
+                    const k2 = `${r.dateIso}|${r.machine}|${r.shift}`;
+                    if (!opByMachShift[k2]) opByMachShift[k2] = r.operator;
+                });
+                parsedCustom.forEach(r => {
+                    if (r.operator) return;
+                    r.operator = opByRow[`${r.dateIso}|${r.machine}|${r.shift}|${r.label_no}`]
+                        || opByMachShift[`${r.dateIso}|${r.machine}|${r.shift}`] || '';
+                });
                 combinedData = combinedData.filter(r => !customDates.has(r.dateIso)).concat(parsedCustom);
                 console.log(`[LocalStorage] تم استرجاع ودمج ${parsedCustom.length} سجل مستورد محلياً.`);
             }
@@ -454,7 +468,7 @@ function cleanSize(rawSize, cable) {
     s = s.replace(/\s*x\s*/g, 'x');
 
     // Extract the actual stranded conductor size (the last number in expressions like 3x240, 4x4x70, 1x240)
-    const stdSizes = new Set(['0.5', '0.75', '1', '1.5', '2.5', '4', '6', '10', '16', '25', '35', '50', '70', '75', '78', '95', '120', '150', '185', '240', '300', '400', '500', '630', '800', '1000', '1200', '1400', '1600', '2000']);
+    const stdSizes = new Set(['0.5', '0.75', '1', '1.5', '2.5', '4', '6', '10', '16', '25', '35', '50', '70', '75', '78', '95', '120', '150', '185', '240', '300', '400', '500', '630', '800', '1000', '1200', '1600', '2000']);
     const parts = s.split('x').map(p => p.trim()).filter(Boolean);
     if (parts.length > 0) {
         if (stdSizes.has(parts[parts.length - 1])) return parts[parts.length - 1];
@@ -1233,12 +1247,17 @@ function renderMainTable() {
         <td style="text-align: center; font-size: 0.85rem; color: #1e3a8a; font-weight: 800;">
             ${(sumTotalLen / 1000).toFixed(2)} km
         </td>
-        <td style="text-align: center; font-size: 0.8rem; color: #1e3a8a; font-weight: 800; white-space: nowrap;">
+        <td style="text-align: center; font-size: 0.8rem; color: #1e3a8a; font-weight: 800; line-height: 1.5;">
             ${(() => {
-                const vals = Object.values(allVoltByWO);
-                const lv = vals.filter(v => v === 'LV').length;
-                const mv = vals.filter(v => v === 'MV').length;
-                return `LV ${lv} · MV ${mv}`;
+                const counts = {};
+                Object.values(allVoltByWO).forEach(v => { if (v) counts[v] = (counts[v] || 0) + 1; });
+                const order = ['LV', 'MV', 'HV'];
+                const keys = Object.keys(counts).sort((x, y) => {
+                    const ix = order.indexOf(x), iy = order.indexOf(y);
+                    if (ix !== -1 || iy !== -1) return (ix === -1 ? 99 : ix) - (iy === -1 ? 99 : iy);
+                    return counts[y] - counts[x] || x.localeCompare(y);
+                });
+                return keys.length ? keys.map(k => `${k} ${counts[k]}`).join(' · ') : '-';
             })()}
         </td>
         <td style="text-align: center; font-size: 0.85rem; color: #1e3a8a; font-weight: 800;">
@@ -1758,13 +1777,7 @@ function handleParsedRows(rows, fileName) {
 
         let matText = String(r[colMat] || '').toLowerCase();
         let cuTon = parseFloat(r[colCu]) || 0;
-        // نوع الموصل: نعتمد على عمود Conductor Metal أولاً (عمود CU ممكن يكون وزن سلك/شريط نحاس للشيلد في كابل ألمونيوم)
-        const alKey = keys.find(k => norm(k) === 'al') || '';
-        const alTon = alKey ? (parseFloat(r[alKey]) || 0) : 0;
-        let material;
-        if (matText.includes('cu') || matText.includes('copper') || matText.includes('نحاس')) material = 'CU';
-        else if (matText.trim().startsWith('al') || ['alum', 'المونيوم', 'الومنيوم', 'المنيوم', 'ألومنيوم', 'ألمنيوم'].some(w => matText.includes(w))) material = 'AL';
-        else material = (cuTon > 0 && cuTon >= alTon) ? 'CU' : 'AL';
+        let material = (matText.includes('cu') || matText.includes('copper') || matText.includes('نحاس') || cuTon > 0) ? 'CU' : 'AL';
 
         let cable = `0.6/1 KV,${material},1*${size}`;
         let familyid = 'LV';
@@ -1829,7 +1842,7 @@ function handleParsedRows(rows, fileName) {
     const datesList = Array.from(datesFound).sort().join(', ');
     showToast(
         'Daily Sheet Processed Successfully!',
-        `Added ${newExtracted.length} production orders on [${datesList}] (${newExtracted.filter(r => r.operator).length} with operator). ⚠️ محفوظ في هذا المتصفح فقط — اضغط Download Updated index.html وارفعه على GitHub عشان يظهر في كل المتصفحات.`,
+        `Added ${newExtracted.length} production orders for Metals machines on [${datesList}]. Dashboard is fully updated.`,
         '🎉',
         `
         <button class="btn-toast-action" onclick="downloadUpdatedIndexHtml()">📥 Download Updated index.html</button>
@@ -1866,8 +1879,6 @@ function downloadUpdatedIndexHtml() {
     const scriptBlock = `<script id="embeddedMetalsData">\nvar METALS_DATA = ${jsonStr};\nif (typeof window !== "undefined") { window.METALS_DATA = METALS_DATA; }\nif (typeof module !== "undefined" && module.exports) { module.exports = METALS_DATA; }\n</script>`;
 
     let htmlContent = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
-    // لا تحفظ رسالة الـ Processing ظاهرة داخل الملف
-    htmlContent = htmlContent.replace(/<div id="toastNotification" class="toast-notification">/, '<div id="toastNotification" class="toast-notification hidden">');
     if (htmlContent.includes('<script id="embeddedMetalsData">')) {
         htmlContent = htmlContent.replace(/<script id="embeddedMetalsData">[\s\S]*?<\/script>/, scriptBlock);
     } else {
