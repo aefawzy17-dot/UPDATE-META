@@ -1,0 +1,9 @@
+﻿Record #,Order No,Operation,Machine,Send Card,Receive Card,Take-Up Drum,Conductor Metal,Size (mm²),Conductor Shape,Stranding Angle,Cores Count,Length (m),Weight (Ton),CU,AL,Operator Code / Name,Shift Code,Logged By,Registration Date
+1,2091/26/01,Stranding,RS01,,3721,Z-241,AL,1x400,Circular,,,4680,0,0,0,حماده السعيد,S1,,2026-11-24
+2,2091/26/01,Stranding,RS01,,3722,WITHOUT,AL,1x400,Circular,,,4900,0,0,0,حماده السعيد,S1,,2026-11-24
+3,2091/26/01,Stranding,RS01,,3722,WITHOUT,AL,1x400,Circular,,,1280,0,0,0,كريم سمير,S2,,2026-11-24
+4,2092/26/01,Stranding,RS01,,3723,PR-103,AL,1x400,Circular,,,4370,0,0,0,كريم سمير,S2,,2026-11-24
+5,2093/26/01,Stranding,RS01,,3724,Z-10,AL,1x400,Circular,,,2350,0,0,0,كريم سمير,S2,,2026-11-24
+6,2093/26/01,Stranding,RS01,,3724,Z-10,AL,1x400,Circular,,,510,0,0,0,حازم حامد,S3,,2026-11-24
+7,2091/26/03,Stranding,RS01,,3725,Z-241,AL,1x400,Circular,,,6180,0,0,0,حازم حامد,S3,,2026-11-24
+8,2091/26/03,Stranding,RS01,,3726,WITHOUT,AL,1x400,Circular,,,2150,0,0,0,حازم حامد,S3,,2026-11-24
