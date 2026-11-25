@@ -544,6 +544,11 @@ def update_html_cache_buster(html_path='index.html'):
         content
     )
     content = re.sub(
+        r'src="orders_catalog\.js\?v=[^"]*"',
+        f'src="orders_catalog.js?v={new_version}"',
+        content
+    )
+    content = re.sub(
         r'src="cable3d\.js\?v=[^"]*"',
         f'src="cable3d.js?v={new_version}"',
         content
@@ -558,6 +563,9 @@ def update_html_cache_buster(html_path='index.html'):
         f.write(content)
 
     print(f"🚀 تم تحديث كاش المتصفح في {html_path} إلى الإصدار: {new_version}")
+
+    if html_path == 'index.html' and os.path.exists('manual_entry.html'):
+        update_html_cache_buster('manual_entry.html')
 
 def git_commit_and_push():
     try:

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تسجيل الإنتاج اليدوي - Metals</title>
+<style>
+:root{--bg:#f6f5fb;--card:#fff;--ink:#1c1b2e;--mute:#6b6a80;--line:#e3e1f0;--acc:#5b3fd1;--acc2:#ede9ff;--ok:#0f8a4f;--bad:#c0392b}
+@media (prefers-color-scheme:dark){:root{--bg:#14131f;--card:#1e1d2e;--ink:#eeedf8;--mute:#9a98b3;--line:#33314a;--acc:#9d85ff;--acc2:#2b2748;--ok:#4cc38a;--bad:#ff7b6b}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:1.4rem;margin:0 0 4px}
+.sub{color:var(--mute);margin:0 0 18px;font-size:.92rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+label{display:block;font-size:.82rem;color:var(--mute);margin-bottom:4px}
+input,select{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit}
+input:focus,select:focus,button:focus-visible{outline:2px solid var(--acc);outline-offset:1px}
+.en{direction:ltr;text-align:left}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:14px}
+button{font:inherit;cursor:pointer;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:9px 16px}
+button.pri{background:var(--acc);border-color:var(--acc);color:#fff;font-weight:700}
+button.danger{color:var(--bad)}
+.msg{font-size:.88rem;min-height:1.3em}
+.msg.ok{color:var(--ok)}.msg.bad{color:var(--bad)}
+.tw{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.85rem;min-width:900px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th{color:var(--mute);font-weight:600;background:var(--acc2)}
+td.num{direction:ltr;text-align:left}
+.empty{color:var(--mute);text-align:center;padding:26px}
+.tot{font-weight:700;margin-inline-start:auto}
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.back-link{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);text-decoration:none;font-size:.85rem;font-weight:600}
+.back-link:hover{border-color:var(--acc);color:var(--acc)}
+.db-pill{font-size:.78rem;color:var(--mute);background:var(--acc2);padding:4px 10px;border-radius:999px}
+.wo-preview{margin-top:12px;padding:12px 14px;border-radius:10px;border:1px solid var(--line);background:var(--bg);display:none}
+.wo-preview.show{display:block}
+.wo-preview.found{border-color:var(--acc);background:color-mix(in srgb,var(--acc2) 45%,var(--card))}
+.wo-preview-head{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.wo-preview-title{font-weight:700;font-size:.9rem;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.wo-preview-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px 12px;font-size:.83rem}
+.wo-kv{display:flex;flex-direction:column;gap:2px}
+.wo-k{font-size:.74rem;color:var(--mute)}
+.wo-v{font-weight:700}
+.badge{display:inline-block;padding:2px 8px;border-radius:6px;font-size:.76rem;font-weight:800;direction:ltr}
+.badge-lv{background:#dcfce7;color:#166534}.badge-mv{background:#ffedd5;color:#9a3412}.badge-hv{background:#fee2e2;color:#991b1b}
+.badge-bc{background:#e0e7ff;color:#3730a3}.badge-cc{background:#fae8ff;color:#86198f}.badge-other{background:#e2e8f0;color:#334155}
+.badge-cu{background:#ffedd5;color:#9a3412}.badge-al{background:#dbeafe;color:#1e40af}
+@media (prefers-color-scheme:dark){
+  .badge-lv{background:#14532d;color:#86efac}.badge-mv{background:#7c2d12;color:#fdba74}.badge-hv{background:#7f1d1d;color:#fca5a5}
+  .badge-bc{background:#312e81;color:#c7d2fe}.badge-cc{background:#701a75;color:#f5d0fe}.badge-other{background:#334155;color:#e2e8f0}
+  .badge-cu{background:#7c2d12;color:#fdba74}.badge-al{background:#1e3a8a;color:#93c5fd}
+}
+.chip-btn{display:inline-block;padding:3px 9px;border-radius:999px;border:1px solid var(--acc);background:var(--card);color:var(--acc);font-size:.78rem;font-weight:700;cursor:pointer;margin:2px 4px 2px 0;direction:ltr}
+.chip-btn:hover{background:var(--acc);color:#fff}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <div>
+      <h1>تسجيل الإنتاج اليدوي</h1>
+      <p class="sub" style="margin-bottom:0">استخدمها لما السيستم يقف. اكتب رقم أمر الشغل وهيظهرلك بياناته تلقائي زي الـ Index، وبعدين نزّل CSV واسحبه على الداشبورد.</p>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+      <span class="db-pill" id="dbStatus">جاري تحميل بيانات الأوردرات...</span>
+      <a class="back-link" href="index.html">← العودة للداشبورد</a>
+    </div>
+  </div>
+  <div style="height:14px"></div>
+
+  <div class="card">
+    <div class="grid">
+      <div><label for="date">التاريخ</label><input id="date" type="date" class="en"></div>
+      <div><label for="shift">الوردية</label><select id="shift"><option>S1</option><option>S2</option><option>S3</option></select></div>
+      <div><label for="machine">الماكينة</label><select id="machine"></select></div>
+      <div><label for="operator">اسم الأوبريتور</label><input id="operator" list="opList" autocomplete="off"><datalist id="opList"></datalist></div>
+      <div><label for="logger">سُجّل بواسطة</label><input id="logger"></div>
+    </div>
+    <hr style="border:0;border-top:1px solid var(--line);margin:16px 0">
+    <div class="grid">
+      <div><label for="order">رقم أمر الشغل (W.O)</label><input id="order" list="woList" class="en" placeholder="1990/26/02" autocomplete="off"><datalist id="woList"></datalist></div>
+      <div><label for="operation">العملية</label><select id="operation"><option>Stranding</option><option>Drawing</option></select></div>
+      <div><label for="size">المقاس (mm²)</label><input id="size" class="en" placeholder="240"></div>
+      <div><label for="metal">المعدن</label><select id="metal"><option>AL</option><option>CU</option></select></div>
+      <div><label for="shape">شكل الموصل</label><select id="shape"><option>Circular</option><option>Compacted</option><option>Sector</option></select></div>
+      <div><label for="cores">عدد الكورات</label><input id="cores" type="number" min="1" class="en"></div>
+      <div><label for="recv">كارت الاستلام</label><input id="recv" class="en"></div>
+      <div><label for="drum">رقم الدرام</label><input id="drum" class="en" placeholder="Z-149"></div>
+      <div><label for="length">الطول (م)</label><input id="length" type="number" min="0" step="any" class="en"></div>
+    </div>
+    <div id="woPreview" class="wo-preview" aria-live="polite"></div>
+    <div class="row">
+      <button class="pri" id="add">إضافة السجل</button>
+      <button id="clearForm">تفريغ الحقول</button>
+      <span class="msg" id="msg" role="status"></span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="row" style="margin-top:0">
+      <strong>السجلات المحفوظة</strong>
+      <span class="tot" id="tot"></span>
+    </div>
+    <div class="tw"><table>
+      <thead><tr><th>#</th><th>التاريخ</th><th>الوردية</th><th>الماكينة</th><th>W.O</th><th>الجهد</th><th>المقاس</th><th>المعدن</th><th>الطول (م)</th><th>الدرام</th><th>الأوبريتور</th><th></th></tr></thead>
+      <tbody id="body"></tbody>
+    </table></div>
+    <div class="row">
+      <button class="pri" id="export">تنزيل CSV</button>
+      <button id="clearAll" class="danger">مسح كل السجلات</button>
+    </div>
+    <p class="sub" style="margin:12px 0 0">السجلات بتتحفظ في المتصفح ده بس. نزّل الـ CSV بعد كل وردية عشان ما تضيعش لو اتمسحت بيانات المتصفح.</p>
+  </div>
+</div>
+
+<script src="wo_voltage.js?v=20261125_102143"></script>
+<script src="metals_data.js?v=20261125_102143"></script>
+<script src="orders_catalog.js?v=20261125_102143"></script>
+<script>
+var MACHINES=['RS01','RS02','RS03','RS04','RS05','RS06','CS01','CS02','DS01','CN'];
+var HEAD=['Record #','Order No','Operation','Machine','Send Card','Receive Card','Take-Up Drum','Conductor Metal','Size (mm²)','Conductor Shape','Stranding Angle','Cores Count','Length (m)','Weight (Ton)','CU','AL','Operator Code / Name','Shift Code','Logged By','Registration Date'];
+var KEY='metals_manual_entries_v1', PKEY='metals_manual_prefs_v1';
+var PREFIX_CUSTOMERS={'1279/25':'Energya Stock','1385/26':'السويدي اليكتريك','1713/26':'VLG RO S.R.L.','177/26':'Faber Kabel','1778/26':'Faber Kabel','1789/26':'Mehta Electricals - Kenya','1868/26':'السويدي كابلز','1872/26':'السويدي كابلز','809/26':'السويدي كابلز','1101/26':'Energya Cables','1264/26':'Eland Cables','1446/26':'Energya Cables','1547/26':'Energya Cables','1553/26':'Energya Cables','1594/26':'Energya Cables','1745/26':'Energya Cables','1772/26':'Energya Cables','1948/26':'Al Marasem','1348/26':'Hitachi Energy','1546/26':'Faber Kabel','1860/26':'Faber Kabel','1463/26':'Cleveland Cables Company','1714/26':'INSELL','1835/26':'INSELL','1938/26':'Sadacavi','1560/26':'Eland Cables','1560/25':'Energya Cables','1766/26':'Energya Cables','1990/26':'Energya Cables','1993/26':'Energya Cables','2167/26':'Energya Cables','2024/26':'Energya Cables','1857/26':'Energya Cables','1830/26':'Energya Cables','1884/26':'Energya Cables','1954/26':'Energya Cables','1628/26':'Energya Cables'};
+var VOLT_NAMES={LV:'Low Voltage',MV:'Medium Voltage',HV:'High Voltage',CC:'Control Cables',BC:'Building Wires',OH:'Overhead',TC:'Telecom',IC:'Instrumentation',BARE:'Bare Copper',SOLAR:'Solar',SOLID:'Solid',IN:'Instrumentation',ND:'Standard'};
+var rows=[], prefs={ops:[]}, ordersIndex={}, allOrderKeys=[], lastAutoFilledWo='';
+function $(id){return document.getElementById(id)}
+function load(k,d){try{var v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}}
+function save(k,v){try{localStorage.setItem(k,JSON.stringify(v));return true}catch(e){return false}}
+function today(){var d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
+function say(t,c){var m=$('msg');m.textContent=t;m.className='msg '+(c||'')}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+
+function cleanSize(rawSize,cable){
+  var s=String(rawSize||'').trim();
+  if((!s||s==='-'||s==='  -   -')&&cable){
+    var m=String(cable).match(/\b(\d+(?:\.\d+)?\*(?:\d+(?:\.\d+)?\*)*\d+(?:\.\d+)?(?:\+\d+(?:\.\d+)?)?(?:\/\d+(?:\.\d+)?)?)\b/);
+    if(m) s=m[1];
+  }
+  if(!s||s==='-'||s==='  -   -') return '-';
+  s=s.replace(/\s*MM2?$/i,'').trim();
+  if(s.indexOf('+')>=0) s=s.split('+')[0].trim();
+  if(s.indexOf('/')>=0) s=s.split('/')[0].trim();
+  s=s.replace(/[\*X]/g,'x').replace(/\s*x\s*/g,'x');
+  var std={'0.5':1,'0.75':1,'1':1,'1.5':1,'2.5':1,'4':1,'6':1,'10':1,'16':1,'25':1,'35':1,'50':1,'70':1,'75':1,'78':1,'95':1,'120':1,'150':1,'185':1,'240':1,'300':1,'400':1,'500':1,'630':1,'800':1,'1000':1,'1200':1,'1400':1,'1600':1,'2000':1};
+  var parts=s.split('x').map(function(p){return p.trim()}).filter(Boolean);
+  if(parts.length){
+    if(std[parts[parts.length-1]]) return parts[parts.length-1];
+    for(var i=0;i<parts.length;i++){if(std[parts[i]]) return parts[i]}
+    return parts[parts.length-1];
+  }
+  return s||'-';
+}
+
+function extractCores(cable){
+  if(!cable) return '';
+  var m=String(cable).match(/\b(\d+)\s*\*\s*(?:\d+\s*\*\s*)?\d+(?:\.\d+)?/);
+  return m?m[1]:'';
+}
+
+function voltBadgeClass(code){
+  var c=String(code||'').toUpperCase();
+  if(c==='LV') return 'badge-lv';
+  if(c==='MV') return 'badge-mv';
+  if(c==='HV') return 'badge-hv';
+  if(c==='BC') return 'badge-bc';
+  if(c==='CC') return 'badge-cc';
+  return 'badge-other';
+}
+
+function buildOrdersIndex(){
+  var vMap=(typeof WO_VOLTAGE_MAP!=='undefined'&&WO_VOLTAGE_MAP)?Object.assign({},WO_VOLTAGE_MAP):{};
+  var savedVolt=load('metals_wo_voltage_override',null);
+  if(savedVolt&&savedVolt.map) vMap=Object.assign(vMap,savedVolt.map);
+
+  var prodData=(typeof METALS_DATA!=='undefined'&&Array.isArray(METALS_DATA))?METALS_DATA.slice():[];
+  var localImports=load('metals_dashboard_local_imports',null);
+  if(Array.isArray(localImports)&&localImports.length){
+    var customDates={};
+    localImports.forEach(function(r){if(r.dateIso)customDates[r.dateIso]=1});
+    prodData=prodData.filter(function(r){return !customDates[r.dateIso]}).concat(localImports);
+  }
+
+  ordersIndex={};
+  prodData.forEach(function(r){
+    var wo=String(r.workorder||'').replace(/\s+/g,' ').trim();
+    if(!wo) return;
+    if(!ordersIndex[wo]){
+      ordersIndex[wo]={workorder:wo,size:'-',material:'',familyid:'',cable:'',cores:'',customer:'-',machines:[],totalMeters:0,s1:0,s2:0,s3:0,lastDate:'',lastDateIso:'',operation:'Stranding',records:0};
+    }
+    var o=ordersIndex[wo];
+    o.records++;
+    var len=parseFloat(r.length)||0;
+    o.totalMeters+=len;
+    var sh=String(r.shift||'').trim();
+    if(sh==='1') o.s1+=len; else if(sh==='2') o.s2+=len; else if(sh==='3') o.s3+=len;
+    var sz=cleanSize(r.size,r.cable);
+    if(sz&&sz!=='-') o.size=sz;
+    if(r.material) o.material=String(r.material).trim().toUpperCase();
+    if(r.familyid) o.familyid=String(r.familyid).trim().toUpperCase();
+    if(r.cable&&String(r.cable).trim()) o.cable=String(r.cable).trim();
+    var c=extractCores(o.cable);
+    if(c) o.cores=c;
+    if(r.customer&&r.customer!=='-') o.customer=String(r.customer).trim();
+    var mach=String(r.machine||'').trim().toUpperCase();
+    if(mach){
+      var idx=o.machines.indexOf(mach);
+      if(idx>=0) o.machines.splice(idx,1);
+      o.machines.unshift(mach);
+    }
+    if(r.dateIso&&r.dateIso>=o.lastDateIso){
+      o.lastDateIso=r.dateIso;
+      o.lastDate=r.dateDisplay||r.dateIso;
+    }
+    if(r.label_no&&String(r.label_no).indexOf('/DRW/')>=0) o.operation='Drawing';
+  });
+
+  Object.keys(vMap).forEach(function(wo){
+    var key=String(wo).replace(/\s+/g,' ').trim();
+    if(!key) return;
+    if(!ordersIndex[key]){
+      var pfx=key.split('/').slice(0,2).join('/');
+      ordersIndex[key]={workorder:key,size:'-',material:'',familyid:vMap[wo],cable:'',cores:'',customer:PREFIX_CUSTOMERS[pfx]||'-',machines:[],totalMeters:0,s1:0,s2:0,s3:0,lastDate:'',lastDateIso:'',operation:'Stranding',records:0,fromPlanOnly:true};
+    }
+    ordersIndex[key].voltage=vMap[wo];
+    ordersIndex[key].fromPlan=true;
+  });
+
+  var catalogMap=(typeof ORDERS_CATALOG!=='undefined'&&ORDERS_CATALOG)?Object.assign({},ORDERS_CATALOG):{};
+  var savedCat=load('metals_orders_catalog_override',null);
+  if(savedCat&&savedCat.map) catalogMap=Object.assign(catalogMap,savedCat.map);
+
+  Object.keys(catalogMap).forEach(function(wo){
+    var key=String(wo).replace(/\s+/g,' ').trim();
+    var cat=catalogMap[wo];
+    if(!key||!cat) return;
+    if(!ordersIndex[key]){
+      ordersIndex[key]={workorder:key,size:'-',material:'',familyid:cat.voltage||'',cable:'',cores:'',customer:'-',machines:[],totalMeters:0,s1:0,s2:0,s3:0,lastDate:'',lastDateIso:'',operation:'Stranding',records:0,fromPlanOnly:true};
+    }
+    var o=ordersIndex[key];
+    if(cat.voltage){o.voltage=cat.voltage;o.fromPlan=true;}
+    if(cat.volt&&!o.volt) o.volt=cat.volt;
+    if(cat.size&&(o.size==='-'||!o.size)) o.size=cat.size;
+    if(cat.cableSize&&!o.cableSize) o.cableSize=cat.cableSize;
+    if(cat.ntSize&&!o.ntSize) o.ntSize=cat.ntSize;
+    if(cat.metal&&!o.material) o.material=cat.metal;
+    if(cat.cores&&!o.cores) o.cores=cat.cores;
+    if(cat.customer&&(!o.customer||o.customer==='-')) o.customer=cat.customer;
+    if(cat.cable&&!o.cable) o.cable=cat.cable;
+    if(cat.plannedKm!=null) o.plannedKm=cat.plannedKm;
+    if(cat.tds&&!o.tds) o.tds=cat.tds;
+    if(cat.status&&!o.status) o.status=cat.status;
+  });
+
+  Object.keys(ordersIndex).forEach(function(wo){
+    var o=ordersIndex[wo];
+    if(!o.voltage){
+      var base=wo.split(' ')[0];
+      if(vMap[base]){o.voltage=vMap[base];o.fromPlan=true;}
+      else{o.voltage=o.familyid||'-';o.fromPlan=false;}
+    }
+    if(!o.customer||o.customer==='-'){
+      var pfx=wo.split('/').slice(0,2).join('/');
+      if(PREFIX_CUSTOMERS[pfx]) o.customer=PREFIX_CUSTOMERS[pfx];
+    }
+  });
+
+  allOrderKeys=Object.keys(ordersIndex).sort();
+  var prodCount=allOrderKeys.filter(function(k){return ordersIndex[k].records>0}).length;
+  var planCount=Object.keys(catalogMap).length||Object.keys(vMap).length;
+  $('dbStatus').textContent='📦 '+planCount.toLocaleString()+' أوردر بالماستر بلان | '+prodCount.toLocaleString()+' أوردر إنتاج';
+  $('woList').innerHTML='';
+}
+
+function updateWoDatalist(raw){
+  var q=String(raw||'').replace(/\s+/g,' ').trim().toUpperCase();
+  if(q.length<2){$('woList').innerHTML='';return}
+  var res=lookupOrder(q,20);
+  var list=res.exact?[res.exact.workorder]:res.matches;
+  $('woList').innerHTML=list.map(function(k){return '<option value="'+esc(k)+'">'}).join('');
+}
+
+function lookupOrder(raw,limit){
+  var maxN=limit||12;
+  var q=String(raw||'').replace(/\s+/g,' ').trim();
+  if(!q) return {exact:null,matches:[]};
+  if(ordersIndex[q]) return {exact:ordersIndex[q],matches:[]};
+  var base=q.split(' ')[0];
+  if(ordersIndex[base]) return {exact:ordersIndex[base],matches:[]};
+  var up=q.toUpperCase();
+  var pref=[], sub=[];
+  if(q.length>=2){
+    for(var i=0;i<allOrderKeys.length;i++){
+      var ku=allOrderKeys[i].toUpperCase();
+      if(ku.indexOf(up)===0) pref.push(allOrderKeys[i]);
+      else if(ku.indexOf(up)>0) sub.push(allOrderKeys[i]);
+      if(pref.length>=maxN) break;
+    }
+  }
+  return {exact:null,matches:pref.concat(sub).slice(0,maxN)};
+}
+
+function applyOrderAutoFill(o){
+  if(!o||lastAutoFilledWo===o.workorder) return;
+  lastAutoFilledWo=o.workorder;
+  if(o.size&&o.size!=='-') $('size').value=o.size;
+  if(o.material==='CU'||o.material==='AL') $('metal').value=o.material;
+  if(o.cores) $('cores').value=o.cores;
+  if(o.operation) $('operation').value=o.operation;
+}
+
+function renderOrderPreview(raw,autoFill){
+  var box=$('woPreview');
+  var q=String(raw||'').replace(/\s+/g,' ').trim();
+  if(!q){box.className='wo-preview';box.innerHTML='';lastAutoFilledWo='';return}
+  var res=lookupOrder(q);
+  if(res.exact){
+    var o=res.exact;
+    if(autoFill) applyOrderAutoFill(o);
+    var vTitle=VOLT_NAMES[o.voltage]||o.voltage;
+    var vBadge='<span class="badge '+voltBadgeClass(o.voltage)+'" title="'+esc(vTitle)+'">'+esc(o.voltage)+'</span>';
+    var voltRatedHtml=o.volt?'<span class="badge badge-other" style="margin-inline-start:4px">'+esc(o.volt)+'</span>':'';
+    var mLabel=o.material==='CU'?'CU · نحاس':(o.material==='AL'?'AL · ألمنيوم':'');
+    var mBadge=o.material?'<span class="badge '+(o.material==='CU'?'badge-cu':'badge-al')+'">'+esc(mLabel)+'</span>':'<span style="color:var(--mute)">—</span>';
+    var sizeTxt=o.size!=='-'?(o.size+' mm²'+(o.cableSize&&o.cableSize.toLowerCase()!==o.size.toLowerCase()?' ('+o.cableSize+')':'')):'—';
+    var machHtml=o.machines.length?o.machines.map(function(m){return '<button type="button" class="chip-btn" data-pick-machine="'+esc(m)+'" title="اضغط لاختيار الماكينة">'+esc(m)+'</button>'}).join(''):'<span style="color:var(--mute)">—</span>';
+    var qtStr=o.records>0?(Math.round(o.totalMeters).toLocaleString('en-US')+' m ('+(o.totalMeters/1000).toFixed(2)+' km)'):'لم يُنتج بعد';
+    var shiftsStr=o.records>0?('S1: '+Math.round(o.s1).toLocaleString('en-US')+' | S2: '+Math.round(o.s2).toLocaleString('en-US')+' | S3: '+Math.round(o.s3).toLocaleString('en-US')):'—';
+    var plannedStr=o.plannedKm!=null?(o.plannedKm+' km'+(o.records>0?' (متبقي '+Math.max(0,o.plannedKm-(o.totalMeters/1000)).toFixed(2)+' km)':'')):'';
+    box.className='wo-preview show found';
+    box.innerHTML=
+      '<div class="wo-preview-head">'+
+        '<div class="wo-preview-title"><span>📋 بيانات الأوردر:</span><strong class="en">'+esc(o.workorder)+'</strong>'+vBadge+voltRatedHtml+'<span style="font-size:.76rem;color:var(--mute)">'+(o.fromPlan?'(Master Plan)':'(Production)')+'</span></div>'+
+        '<span style="font-size:.78rem;color:var(--ok);font-weight:700">'+(o.records>0?'✓ تم سحب البيانات ('+o.records+' سجل)':'✓ موجود في الماستر بلان')+(o.status?' · '+esc(o.status):'')+'</span>'+
+      '</div>'+
+      '<div class="wo-preview-grid">'+
+        '<div class="wo-kv"><span class="wo-k">Cable Size (المقاس)</span><span class="wo-v en">'+esc(sizeTxt)+'</span></div>'+
+        '<div class="wo-kv"><span class="wo-k">Conductor (المعدن)</span><span class="wo-v">'+mBadge+'</span></div>'+
+        '<div class="wo-kv"><span class="wo-k">Voltage (الفولت)</span><span class="wo-v en">'+esc((o.voltage||'-')+(o.volt?' · '+o.volt:''))+'</span></div>'+
+        '<div class="wo-kv"><span class="wo-k">Cores (الكورات)</span><span class="wo-v en">'+esc(o.cores||'—')+'</span></div>'+
+        (o.ntSize?'<div class="wo-kv"><span class="wo-k">Neutral CSA</span><span class="wo-v en">'+esc(o.ntSize)+' mm²</span></div>':'')+
+        '<div class="wo-kv"><span class="wo-k">Qt by order</span><span class="wo-v en">'+esc(qtStr)+'</span></div>'+
+        '<div class="wo-kv"><span class="wo-k">Shifts (m)</span><span class="wo-v en" style="font-size:.78rem">'+esc(shiftsStr)+'</span></div>'+
+        '<div class="wo-kv"><span class="wo-k">Machine(s)</span><span class="wo-v">'+machHtml+'</span></div>'+
+        '<div class="wo-kv"><span class="wo-k">Customer (العميل)</span><span class="wo-v">'+esc(o.customer||'-')+'</span></div>'+
+        (plannedStr?'<div class="wo-kv"><span class="wo-k">الخطة (Planned)</span><span class="wo-v en">'+esc(plannedStr)+'</span></div>':'')+
+        (o.tds?'<div class="wo-kv"><span class="wo-k">TDS</span><span class="wo-v en">'+esc(o.tds)+'</span></div>':'')+
+        (o.cable?'<div class="wo-kv" style="grid-column:span 2"><span class="wo-k">Cable Spec</span><span class="wo-v en" style="font-size:.78rem">'+esc(o.cable)+'</span></div>':'')+
+        (o.lastDate?'<div class="wo-kv"><span class="wo-k">آخر تاريخ إنتاج</span><span class="wo-v en">'+esc(o.lastDate)+'</span></div>':'')+
+      '</div>';
+    return;
+  }
+  if(res.matches.length){
+    box.className='wo-preview show';
+    box.innerHTML='<div style="font-size:.84rem;color:var(--mute);margin-bottom:6px">أوردرات مطابقة (اضغط للاختيار):</div>'+
+      res.matches.map(function(k){
+        var o=ordersIndex[k];
+        return '<button type="button" class="chip-btn" data-pick-wo="'+esc(k)+'">'+esc(k)+(o.size!=='-'?' · '+esc(o.size)+'mm²':'')+(o.voltage&&o.voltage!=='-'?' · '+esc(o.voltage):'')+'</button>';
+      }).join('');
+    return;
+  }
+  box.className='wo-preview show';
+  box.innerHTML='<div style="font-size:.84rem;color:var(--mute)">أوردر غير مسجل في الداشبورد أو الماستر بلان — يمكنك إدخال بياناته يدوياً.</div>';
+}
+
+function render(){
+  var b=$('body');
+  if(!rows.length){b.innerHTML='<tr><td colspan="12" class="empty">مفيش سجلات لسه. املا الحقول فوق واضغط «إضافة السجل».</td></tr>';$('tot').textContent='';return}
+  b.innerHTML=rows.map(function(r,i){
+    var v=r.voltage||(ordersIndex[r.order]&&ordersIndex[r.order].voltage)||'-';
+    var vHtml=v&&v!=='-'?'<span class="badge '+voltBadgeClass(v)+'">'+esc(v)+'</span>':'—';
+    return '<tr><td class="num">'+r.id+'</td><td class="num">'+esc(r.date)+'</td><td>'+esc(r.shift)+'</td><td>'+esc(r.machine)+'</td><td class="num">'+esc(r.order)+'</td><td>'+vHtml+'</td><td class="num">'+esc(r.size)+'</td><td>'+esc(r.metal)+'</td><td class="num">'+r.length+'</td><td class="num">'+esc(r.drum)+'</td><td>'+esc(r.operator)+'</td><td><button class="danger" data-i="'+i+'">حذف</button></td></tr>';
+  }).join('');
+  var km=rows.reduce(function(s,r){return s+r.length},0)/1000;
+  $('tot').textContent=rows.length+' سجل — '+km.toFixed(2)+' كم';
+}
+function opList(){$('opList').innerHTML=prefs.ops.map(function(o){return '<option value="'+esc(o)+'">'}).join('')}
+
+$('order').addEventListener('input',function(){updateWoDatalist(this.value);renderOrderPreview(this.value,true)});
+$('order').addEventListener('change',function(){renderOrderPreview(this.value,true)});
+$('woPreview').addEventListener('click',function(e){
+  var woBtn=e.target.closest&&e.target.closest('[data-pick-wo]');
+  if(woBtn){
+    $('order').value=woBtn.getAttribute('data-pick-wo');
+    renderOrderPreview($('order').value,true);
+    $('recv').focus();
+    return;
+  }
+  var mBtn=e.target.closest&&e.target.closest('[data-pick-machine]');
+  if(mBtn){
+    var m=mBtn.getAttribute('data-pick-machine');
+    if(MACHINES.indexOf(m)>=0){$('machine').value=m;say('تم اختيار الماكينة '+m+'.','ok')}
+  }
+});
+
+$('add').onclick=function(){
+  var wo=$('order').value.trim();
+  var found=lookupOrder(wo).exact;
+  var r={date:$('date').value,shift:$('shift').value,machine:$('machine').value,operator:$('operator').value.trim(),logger:$('logger').value.trim(),
+    order:wo,voltage:found?found.voltage:'-',operation:$('operation').value,size:$('size').value.trim(),metal:$('metal').value,shape:$('shape').value,
+    cores:$('cores').value,length:parseFloat($('length').value),weight:0,drum:$('drum').value.trim(),recv:$('recv').value.trim(),send:''};
+  if(!r.date) return say('اختار التاريخ.','bad');
+  if(!r.order) return say('اكتب رقم أمر الشغل.','bad');
+  if(!(r.length>0)) return say('اكتب الطول بالمتر (أكبر من صفر).','bad');
+  if(!r.operator) return say('اكتب اسم الأوبريتور.','bad');
+  r.id=rows.length?Math.max.apply(null,rows.map(function(x){return x.id}))+1:1;
+  rows.push(r);
+  if(r.operator&&prefs.ops.indexOf(r.operator)<0)prefs.ops.push(r.operator);
+  prefs.operator=r.operator;prefs.logger=r.logger;prefs.machine=r.machine;prefs.shift=r.shift;
+  var ok=save(KEY,rows)&&save(PKEY,prefs);
+  opList();render();
+  ['order','size','cores','recv','drum','length'].forEach(function(id){$(id).value=''});
+  lastAutoFilledWo='';renderOrderPreview('',false);
+  $('order').focus();
+  say(ok?'اتحفظ السجل رقم '+r.id+'.':'اتضاف السجل لكن المتصفح رفض الحفظ. نزّل الـ CSV دلوقتي.',ok?'ok':'bad');
+};
+$('clearForm').onclick=function(){['order','size','cores','recv','drum','length'].forEach(function(id){$(id).value=''});lastAutoFilledWo='';renderOrderPreview('',false);say('')};
+$('body').onclick=function(e){
+  var i=e.target.getAttribute&&e.target.getAttribute('data-i');
+  if(i===null||i===undefined)return;
+  if(confirm('تحذف السجل رقم '+rows[i].id+'؟')){rows.splice(i,1);save(KEY,rows);render()}
+};
+$('clearAll').onclick=function(){
+  if(rows.length&&confirm('هتمسح كل السجلات ('+rows.length+'). متأكد؟ نزّل الـ CSV الأول لو لسه.')){rows=[];save(KEY,rows);render();say('اتمسحت كل السجلات.')}
+};
+function q(v){v=String(v==null?'':v);return /[",\n]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v}
+$('export').onclick=function(){
+  if(!rows.length)return say('مفيش سجلات تتنزّل.','bad');
+  var lines=[HEAD.map(q).join(',')];
+  rows.slice().sort(function(a,b){return a.id-b.id}).forEach(function(r){
+    var cu=r.metal==='CU'?r.weight:0, al=r.metal==='AL'?r.weight:0;
+    lines.push([r.id,r.order,r.operation,r.machine,r.send,r.recv,r.drum,r.metal,r.size,r.shape,'',r.cores,r.length,r.weight,cu,al,r.operator,r.shift,r.logger,r.date].map(q).join(','));
+  });
+  var blob=new Blob(['\ufeff'+lines.join('\r\n')],{type:'text/csv;charset=utf-8'});
+  var a=document.createElement('a');a.href=URL.createObjectURL(blob);
+  a.download='Cable_Production_Records_manual_'+today()+'.csv';
+  document.body.appendChild(a);a.click();a.remove();
+  say('اتنزّل الملف. اسحبه على الداشبورد.','ok');
+};
+
+(function init(){
+  $('machine').innerHTML=MACHINES.map(function(m){return '<option>'+m+'</option>'}).join('');
+  rows=load(KEY,[]);prefs=load(PKEY,{ops:[]});if(!prefs.ops)prefs.ops=[];
+  $('date').value=today();
+  if(prefs.operator)$('operator').value=prefs.operator;
+  if(prefs.logger)$('logger').value=prefs.logger;
+  if(prefs.machine)$('machine').value=prefs.machine;
+  if(prefs.shift)$('shift').value=prefs.shift;
+  buildOrdersIndex();
+  opList();render();
+})();
+</script>
+</body>
+</html>
