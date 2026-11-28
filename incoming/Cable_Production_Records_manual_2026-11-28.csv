@@ -1,0 +1,25 @@
+﻿Record #,Order No,Operation,Machine,Send Card,Receive Card,Take-Up Drum,Conductor Metal,Size (mm²),Conductor Shape,Stranding Angle,Cores Count,Length (m),Weight (Ton),CU,AL,Operator Code / Name,Shift Code,Logged By,Registration Date
+1,2229/26/01,Stranding,RS01,,3738,Z-32,AL,300,Circular,,3,6150,0,0,0,كريم سمير,S2,,2026-11-27
+2,2229/26/01,Stranding,RS01,,3739,Z-143,AL,300,Circular,,3,850,0,0,0,كريم سمير,S2,,2026-11-27
+3,1203/26/01,Stranding,RS02,,5881,Z-149,AL,240,Circular,,1,830,0,0,0,محمود حسين,S2,,2026-11-27
+4,1203/26/01,Stranding,RS02,,5882,Z-219,AL,240,Circular,,1,6300,0,0,0,محمود حسين,S2,,2026-11-27
+5,1203/26/01,Stranding,RS02,,5883,WITHOUT,AL,240,Circular,,1,3450,0,0,0,محمود حسين,S2,,2026-11-27
+6,2200/26/01,Stranding,RS03,,5558,E-82,CU,400,Circular,,1,205,0,0,0,رضا صلاح,S2,,2026-11-27
+7,2200/26/01,Stranding,RS03,,5560,ST-482,CU,400,Circular,,1,2340,0,0,0,رضا صلاح,S2,,2026-11-27
+8,2200/26/01,Stranding,RS03,,5561,E-46,CU,400,Circular,,1,2340,0,0,0,رضا صلاح,S2,,2026-11-27
+9,2200/26/01,Stranding,RS03,,5562,T-278,CU,400,Circular,,1,2340,0,0,0,رضا صلاح,S2,,2026-11-27
+10,2200/26/01,Stranding,RS03,,5563,E-95,CU,400,Circular,,1,150,0,0,0,رضا صلاح,S2,,2026-11-27
+11,2150/26/01,Stranding,RS04,,3977,Z-62,CU,630,Circular,,1,880,0,0,0,محمد اشرف,S2,,2026-11-27
+12,2150/26/01,Stranding,RS04,,3978,WITHOUT,CU,630,Circular,,1,1405,0,0,0,محمد اشرف,S2,,2026-11-27
+13,2265/26/02,Stranding,RS04,,3979,Z-214,AL,630,Circular,,1,800,0,0,0,محمد اشرف,S2,,2026-11-27
+14,2156/26/04,Stranding,RS05,,24928,P-100,CU,95,Circular,,3,1040,0,0,0,يسري خليفه,S2,,2026-11-27
+15,2156/26/02,Stranding,RS05,,24929,P-95,CU,95,Circular,,3,3090,0,0,0,يسري خليفه,S2,,2026-11-27
+16,2219/26/01,Stranding,RS05,,24930,E-91,CU,95,Compacted,,1,4790,0,0,0,يسري خليفه,S2,,2026-11-27
+17,1775/26/01,Stranding,RS06,,25651,E-81,CU,240,Compacted,,1,2735,0,0,0,شريف رمضان,S2,,2026-11-27
+18,1775/26/01,Stranding,RS06,,25652,E-14,CU,240,Compacted,,1,3645,0,0,0,شريف رمضان,S2,,2026-11-27
+19,2069/26/01,Stranding,RS06,,25653,E-96,CU,240,Compacted,,1,3700,0,0,0,شريف رمضان,S2,,2026-11-27
+20,2166/26/01,Stranding,CS02,,3681,C-27,AL,50,Compacted,,1,1020,0,0,0,شريف رمضان,S2,,2026-11-27
+21,2166/26/01,Stranding,CS02,,3682,C-1,AL,50,Compacted,,1,6240,0,0,0,شريف رمضان,S2,,2026-11-27
+22,1862/26/05,Stranding,CN,,5762,T-107,AL,185,Compacted,,1,4200,0,0,0,محمد سامي,S2,,2026-11-27
+23,1862/26/05,Stranding,CN,,5763,ST-474,AL,185,Compacted,,1,4200,0,0,0,محمد سامي,S2,,2026-11-27
+24,1862/26/05,Stranding,CN,,5764,Z-270,AL,185,Compacted,,1,3500,0,0,0,محمد سامي,S2,,2026-11-27
